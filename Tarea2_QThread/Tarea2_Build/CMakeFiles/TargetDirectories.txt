@@ -1,0 +1,7 @@
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/install.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/list_install_components.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/rebuild_cache.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/ejemplo1.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/install/local.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/install/strip.dir
+/home/carlos/Escritorio/ROBOTICA/Tarea2_QThread/Tarea2_Build/CMakeFiles/edit_cache.dir

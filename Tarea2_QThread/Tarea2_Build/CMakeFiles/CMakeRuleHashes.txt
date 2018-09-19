@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+b131981c818d6e2abaf0563d3495c85a moc_ThreadTimer.cxx
+040195492f760aa05da312d67fa567f8 moc_ejemplo1.cxx
+99658d0d5a132082b816055448114a81 moc_qtimer.cxx
+a16ec7745af8346ca2998324457fafbd ui_counterDlg.h
