@@ -99,9 +99,9 @@ bool SpecificWorker::isCorner(TLaserData ldata, int threshold){
  * @param ldata
  * @param MAX_DIST -> distancia la cual a partir de ella el factor siempre es 1
  * @return
- * method that returns a factor (from 0 to 1) as a function of the shortest distance detected
- * in the front. this factor is used to increase the speed as a function of the distance and
- * is worth 1 as long as the distance detected is greater than MAX_DIST
+ * metodo que devuelve un factor (de 0 a 1) en funcion de la distancia mas
+ * corta detectada en el frente. este factor se usa para aumentar la velocidad en funcion de
+ * de la distancia y vale 1 siempre que la distancia detectada sea mayor que MAX_DIST
  */
 float SpecificWorker::speedFactor(TLaserData ldata, float MAX_DIST)
 {
@@ -127,8 +127,9 @@ float SpecificWorker::speedFactor(TLaserData ldata, float MAX_DIST)
  * @brief SpecificWorker::isFront
  * @param index -> posicion del vector
  * @return
- * Method that says if the position of the vector (index) given as a parameter
- * is considered part of the laser front. (the vector must have 100 elements)
+ * Metodo que dice si la posicion del vector (index) dada como parametro se considera
+ * parte del frente del laser.
+ * (teniendo en cuenta que el vector tiene 100 elementos)
  */
 bool SpecificWorker::isFront(int index)
 {
@@ -144,8 +145,8 @@ bool SpecificWorker::isFront(int index)
  * @brief SpecificWorker::normalTurn
  * @param ldata
  * @param rot -> rads/seg de giro
- * Method that performs the normal act of turning, understanding this by turning towards
- * the shortest side during a random time interval between 1.5 and 0.1 sec to rot rads / sec
+ * Metodo que realiza el acto normal de giro, entendiendo este por girar hacia
+ * el lado mas corto durante un intervalo aleatorio de tiempo entre 1.5 y 0.1 sec a rot rads/seg
  */
 void SpecificWorker::normalTurn(TLaserData ldata, float rot)
 {
@@ -162,9 +163,9 @@ void SpecificWorker::normalTurn(TLaserData ldata, float rot)
  * @brief SpecificWorker::specificTurn
  * @param ldata
  * @param rot -> rads/seg de giro
- * Method that performs the turn during a tick or execution. This method is used
- * to rotate as little as possible to overcome an obstacle in a critical situation
- * where the obstacle is too close
+ * Metodo que realiza el giro durante un tick o ejecucion.
+ * Este metodo se utiliza para girar lo minimo posible para salvar un obstaculo en
+ * una situacion critica en la que el obstaculo este demasiado cerca
  */
 void SpecificWorker::specificTurn(TLaserData ldata, float rot)
 {
@@ -182,7 +183,6 @@ void SpecificWorker::specificTurn(TLaserData ldata, float rot)
 
 void SpecificWorker::compute( )
 {
-    //CONSTANTS
     const float threshold = 220; //millimeters
     const float MAX_SPEED = 1000; //max robot speed allowed
     const float MAX_DIST = 500; //from this distance in avance at MAX_SPEED
@@ -211,6 +211,7 @@ void SpecificWorker::compute( )
             specificTurn(ldataSorted,MAX_ROT);
         }else{
             if(isCorner(ldataRaw,threshold)){
+                std::cout << "isCorner" << endl;
                 differentialrobot_proxy->setSpeedBase(0, MAX_ROT);
                 usleep(2000000);
             }
