@@ -83,7 +83,6 @@ bool SpecificWorker::isCorner(TLaserData ldata, int threshold){
             info++;
         }
     }
-    std::cout << info << endl;
 
     if(info>72){
        return true;
@@ -211,7 +210,6 @@ void SpecificWorker::compute( )
             specificTurn(ldataSorted,MAX_ROT);
         }else{
             if(isCorner(ldataRaw,threshold)){
-                std::cout << "isCorner" << endl;
                 differentialrobot_proxy->setSpeedBase(0, MAX_ROT);
                 usleep(2000000);
             }
