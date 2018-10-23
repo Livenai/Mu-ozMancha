@@ -62,9 +62,7 @@ void SpecificWorker::compute()
 {
 
     float angle, distTarget, vadv, vrot;
-        const float MaxAdv = 400;
-        const float MaxRot = 0.5;
-        const float e = 2.71828;
+        
     RoboCompGenericBase::TBaseState bState;
     differentialrobot_proxy->getBaseState( bState);
 
