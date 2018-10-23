@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="MyFirstComp" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\robocomp\;CMake Files\..\..\..\..\opt\robocomp\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/fernandoms/robocomp/mycomponent2/src" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MyFirstComp">
+         <Option output="/home/fernandoms/robocomp/mycomponent2/bin/MyFirstComp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fernandoms/robocomp/mycomponent2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/classes" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2/src" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2/src/." />
+            <Add directory="/include" />
+            <Add directory="/opt/robocomp/classes" />
+            <Add directory="/opt/robocomp/include" />
+            <Add directory="/opt/robocomp/interfaces" />
+            <Add directory="/opt/robocomp/libs" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtXml" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 MyFirstComp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MyFirstComp/fast">
+         <Option output="/home/fernandoms/robocomp/mycomponent2/bin/MyFirstComp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fernandoms/robocomp/mycomponent2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/classes" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2/src" />
+            <Add directory="/home/fernandoms/robocomp/mycomponent2/src/." />
+            <Add directory="/include" />
+            <Add directory="/opt/robocomp/classes" />
+            <Add directory="/opt/robocomp/include" />
+            <Add directory="/opt/robocomp/interfaces" />
+            <Add directory="/opt/robocomp/libs" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtXml" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 MyFirstComp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MyFirstComp_automoc">
+         <Option working_dir="/home/fernandoms/robocomp/mycomponent2/src" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 MyFirstComp_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fernandoms/robocomp/mycomponent2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/commonbehaviorI.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/commonbehaviorI.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/genericmonitor.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/genericmonitor.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/genericworker.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/genericworker.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/main.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/mainUI.ui">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/rcismousepickerI.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/rcismousepickerI.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/specificmonitor.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/specificmonitor.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/specificworker.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/specificworker.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/qlog/qlog.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/qlog/qlog.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/rapplication/rapplication.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/rapplication/rapplication.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/sigwatch/sigwatch.cpp">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/opt/robocomp/classes/sigwatch/sigwatch.h">
+         <Option target="MyFirstComp"/>
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/CMakeListsSpecific.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/src/CMakeListsSpecific.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/../../../../opt/robocomp/cmake/robocomp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\robocomp\cmake\" />
+      </Unit>
+      <Unit filename="/home/fernandoms/robocomp/mycomponent2/../../../../opt/robocomp/cmake/robocomp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\robocomp\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
