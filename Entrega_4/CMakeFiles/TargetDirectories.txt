@@ -1,0 +1,14 @@
+/home/fernandoms/robocomp/choca/CMakeFiles/install/strip.dir
+/home/fernandoms/robocomp/choca/CMakeFiles/install.dir
+/home/fernandoms/robocomp/choca/CMakeFiles/install/local.dir
+/home/fernandoms/robocomp/choca/CMakeFiles/list_install_components.dir
+/home/fernandoms/robocomp/choca/CMakeFiles/edit_cache.dir
+/home/fernandoms/robocomp/choca/CMakeFiles/rebuild_cache.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/install/strip.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/edit_cache.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/MyFirstComp.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/rebuild_cache.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/list_install_components.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/install/local.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/install.dir
+/home/fernandoms/robocomp/choca/src/CMakeFiles/MyFirstComp_autogen.dir
