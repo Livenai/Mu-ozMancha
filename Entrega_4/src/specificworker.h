@@ -38,8 +38,8 @@ public:
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
     void gotoTarget();
-    bool atLine();
-    void bug();
+    bool atLine(RoboCompGenericBase::TBaseState bState);
+    void bug(RoboCompGenericBase::TBaseState bState);
 
     bool obstacle();
     void targetAtSight();
@@ -54,7 +54,11 @@ public slots:
 private:
         enum class State{IDLE, GOTO, BUG, TURN};
         State state = State::IDLE;
-        struct Line2P{
+        struct {
+            float P1X;
+            float P1Z;
+            float P2X;
+            float P2Z;
 
             void setPoints(float _x1,float _z1,float _x2,float _z2){
                 P1X=_x1;
@@ -62,13 +66,7 @@ private:
                 P2X=_x2;
                 P2Z=_z2;
             }
-
-            float P1X;
-            float P1Z;
-            float P2X;
-            float P2Z;
-
-        };
+        }typedef Line2P;
 
     struct Target{
         void click(){
