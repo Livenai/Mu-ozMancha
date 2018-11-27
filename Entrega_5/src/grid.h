@@ -110,9 +110,17 @@ class Grid
 				}
 	
 			// list of increments to access the neighboors of a given position
-			I = dim.TILE_SIZE;
-			xincs = {I,I,I,0,-I,-I,-I,0};
-			zincs = {I,0,-I,-I,-I,0,I,I};	
+            I = dim.TILE_SIZE;
+            xincs = {I,I,I,0,-I,-I,-I,0};
+            zincs = {I,0,-I,-I,-I,0,I,I};
+            /*
+            int radio = 1; //radio de busqueda de los vecinos validos
+            for (int x = I * (-radio); x <= I * radio; x += I) {
+                for (int z = I * (-radio); z <= I * radio; z += I) {
+                    xincs.insert(xincs.end(), x);
+                    zincs.insert(zincs.end(), z);
+                }
+            } */
 		
 			std::cout << "Grid::Initialize. Grid initialized to map size: " << fmap.size() << std::endl;	
 		}
@@ -166,20 +174,33 @@ class Grid
          * metodo propio Mu-ozMancha
          */
         bool vecinoValido(const Key &k) const{
-            int radio = 1;
-            for (int i = (radio*-1); i <= radio; ++i) {
-                for (int j = (radio*-1); j <= radio; ++j) {
-                    Key lr{k.x + i, k.z + j};
-                    auto iterador = fmap.find(lr);
-                    if(iterador == fmap.end()){
-                        cout << "end()" << endl;
-                        return false; //siempre sale false aqui. hayq ue arreglarlo.
-                    }else {
-                        if(iterador->second.free == false)
-                        {
-                            return false;
-                        }
+
+            int I = dim.TILE_SIZE;
+            std::vector<int> xaux;
+            std::vector<int> zaux;
+            int radio = 3; //radio de busqueda de los vecinos validos
+
+            //vecinos a buscar
+            for (int x = I * (-radio); x <= I * radio; x += I) {
+                for (int z = I * (-radio); z <= I * radio; z += I) {
+                    xaux.insert(xaux.end(), x);
+                    zaux.insert(zaux.end(), z);
+                }
+            }
+
+            //busqueda de los validos
+            for (auto itx = xaux.begin(), itz = zaux.begin(); itx != xaux.end(); ++itx, ++itz)
+            {
+                Key lk{k.x + *itx, k.z + *itz};
+                typename FMap::const_iterator it = fmap.find(lk);
+                if( it != fmap.end()){
+                    //and not an obstacle
+                    if(!fmap.find(lk)->second.free)
+                    {
+                        return false;
                     }
+                } else {
+                    return false;
                 }
             }
             return true;
