@@ -111,16 +111,16 @@ class Grid
 	
 			// list of increments to access the neighboors of a given position
             I = dim.TILE_SIZE;
-            xincs = {I,I,I,0,-I,-I,-I,0};
-            zincs = {I,0,-I,-I,-I,0,I,I};
-            /*
+            //xincs = {I,I,I,0,-I,-I,-I,0};
+            //zincs = {I,0,-I,-I,-I,0,I,I};
+
             int radio = 1; //radio de busqueda de los vecinos validos
             for (int x = I * (-radio); x <= I * radio; x += I) {
                 for (int z = I * (-radio); z <= I * radio; z += I) {
                     xincs.insert(xincs.end(), x);
                     zincs.insert(zincs.end(), z);
                 }
-            } */
+            }
 		
 			std::cout << "Grid::Initialize. Grid initialized to map size: " << fmap.size() << std::endl;	
 		}

@@ -106,42 +106,10 @@ void SpecificWorker::compute()
         robot->setPos(bState.x, bState.z);
         robot->setRotation(-180.*bState.alpha/M_PI);
 
-        //updateVisitedCells(bState.x, bState.z);
         updateOccupiedCells(bState, ldata);
 
         if(targetReady)
         {
-
-
-            switch( state )
-
-            {
-
-            case State::IDLE:
-                line2p.setPoints(bState.x,bState.z,target[0], target[2]);
-                state = State::GOTO;
-
-
-                break;
-
-            case State::GOTO:
-
-                gotoTarget(bState);
-
-                break;
-
-            case State::BUG:
-
-                bug(bState);
-
-                break;
-
-            case State::TURN:
-                turn();
-
-                break;
-
-            }
 
             if(planReady)
             {
@@ -150,21 +118,38 @@ void SpecificWorker::compute()
                 {
                     qDebug() << "Arrived to target";
                     targetReady = false;
+                     differentialrobot_proxy->setSpeedBase(0,0);
                 }
-                else
+                else{
 
+                    currentPoint = path.front();
+                    QVec rt = innerModel->transform("base",currentPoint,"world");
+                    //qDebug() << "My pos: "<< bState.x<<"   "<<bState.z<< "El target pos: "<< currentPoint.x() <<"   "<< currentPoint.z() ;
 
-                    if((QVec::vec2(bState.x, bState.z) - currentPoint).norm2() < 50)
+                    float dist=rt.norm2();
+                    //qDebug() << "My pos: "<< dist;
+                    float angle = atan2(rt.x(), rt.z());
+                    if(angle<0.1 && angle > -0.1)
+                    {
+                        differentialrobot_proxy->setSpeedBase(300,0);
+                    }else{
+                        if(angle<0.1)
+                            differentialrobot_proxy->setSpeedBase(0,-1);
+                        else if(angle>-0.1)
+                            differentialrobot_proxy->setSpeedBase(0,1);
+
+                    }
+
+                    if(dist <50)
                     {
                         currentPoint = path.front();
                         path.pop_front();
-
                     }
-                    else{
 
 
 
-                    }
+                }
+
 
 
             }
@@ -192,7 +177,7 @@ void SpecificWorker::gotoTarget(RoboCompGenericBase::TBaseState bState)
 
 
 
-    if( obstacle() == true)   // If ther is an obstacle ahead, then transit to BUG
+  /*  if( obstacle() == true)   // If ther is an obstacle ahead, then transit to BUG
 
     {
 
@@ -202,22 +187,22 @@ void SpecificWorker::gotoTarget(RoboCompGenericBase::TBaseState bState)
 
         return;
 
-    }
-    QVec rt = innerModel->transform("base",QVec::vec3(target[0], target[1],target[2]),"world");
+    }*/
+
+    QVec rt = innerModel->transform("base",currentPoint,"world");
     float dist=rt.norm2();
     float angle = atan2(rt.x(), rt.z());
-
-
-    if(angle<0.1 && angle > -0.1)
+    if(angle<1 && angle > -1)
     {
-        differentialrobot_proxy->setSpeedBase(500,0);
+        differentialrobot_proxy->setSpeedBase(300,0);
     }else{
-        if(angle<0.1)
-            differentialrobot_proxy->setSpeedBase(200,-1);
-        else if(angle>-0.1)
-            differentialrobot_proxy->setSpeedBase(200,1);
+        if(angle<1)
+            differentialrobot_proxy->setSpeedBase(0,-1);
+        else if(angle>-1)
+            differentialrobot_proxy->setSpeedBase(0,1);
 
     }
+
 
 
     if(dist < 320){
