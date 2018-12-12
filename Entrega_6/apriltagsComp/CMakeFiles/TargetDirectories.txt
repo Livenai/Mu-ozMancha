@@ -1,0 +1,14 @@
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/install/strip.dir
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/install.dir
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/install/local.dir
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/list_install_components.dir
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/edit_cache.dir
+/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles/rebuild_cache.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/install/strip.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/edit_cache.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/AprilTagsComp.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/rebuild_cache.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/list_install_components.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/install/local.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/install.dir
+/home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/AprilTagsComp_autogen.dir

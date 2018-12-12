@@ -1,0 +1,13 @@
+import "GotoPoint.idsl";
+
+Component chocachoca
+{
+	Communications
+	{
+		requires GotoPoint;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+	
+};
+
