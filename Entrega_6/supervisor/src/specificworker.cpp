@@ -72,11 +72,23 @@ void SpecificWorker::compute()
 
     ///inicializamos
     if(ESTABLECIDO){
-        for (int i = 0; i < 4; ++i) {
-            vectorDeMarcas[i].nombre = "marca";
-            vectorDeMarcas[i].x = i*500;
-            vectorDeMarcas[i].z = 0;
-        }
+        vectorDeMarcas[0].nombre = "marca1";
+            vectorDeMarcas[0].x = -3143;
+            vectorDeMarcas[0].z = 6000;
+
+	vectorDeMarcas[1].nombre = "marca2";
+            vectorDeMarcas[1].x = 2393;
+            vectorDeMarcas[1].z = 4639;
+
+	vectorDeMarcas[2].nombre = "marca3";
+            vectorDeMarcas[2].x = 1970;
+            vectorDeMarcas[2].z = -3000;
+
+	vectorDeMarcas[3].nombre = "marca4";
+            vectorDeMarcas[3].x = -5000;
+            vectorDeMarcas[3].z = -2000;
+
+
         ESTABLECIDO = false;
         cout << "---------- PARAMS ESTABLECIDOS ----------" << endl;
     }

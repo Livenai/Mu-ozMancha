@@ -61,14 +61,14 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
     qDebug() << __FILE__ ;
 
     // Scene
-    scene.setSceneRect(-2500, -2500, 5000, 5000);
+    scene.setSceneRect(-5000, -5000, 10000, 10000);
     view.setScene(&scene);
     view.scale(1, -1);
     view.setParent(scrollArea);
     //view.setViewport(new QGLWidget(QGLFormat(QGL::SampleBuffers)));
     view.fitInView(scene.sceneRect(), Qt::KeepAspectRatio );
 
-    grid.initialize( TDim{ tilesize, -2500, 2500, -2500, 2500}, TCell{0, true, false, nullptr, 0.} );
+    grid.initialize( TDim{ 50, -8000, 7000, -6000, 8000}, TCell{0, true, false, nullptr, 0.} );
 
     for(auto &[key, value] : grid)
     {
@@ -100,13 +100,12 @@ void SpecificWorker::compute()
     {
         differentialrobot_proxy->getBaseState(bState);
         innerModel->updateTransformValues("base", bState.x, 0, bState.z, 0, bState.alpha, 0);
-        RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
 
         //draw robot
         robot->setPos(bState.x, bState.z);
         robot->setRotation(-180.*bState.alpha/M_PI);
 
-        updateOccupiedCells(bState, ldata);
+
 
         if(targetReady)
         {
@@ -213,35 +212,7 @@ void SpecificWorker::gotoTarget(RoboCompGenericBase::TBaseState bState)
         return;
     }
 }
-bool SpecificWorker::obstacle()
-{
 
-    TLaserData lsr = laser_proxy->getLaserData();
-    std::sort( lsr.begin(), lsr.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return     a.dist < b.dist; }) ;
-
-    if(lsr.begin()->dist<250)
-    {
-        return true;
-    }
-    else
-        return false;
-}
-void SpecificWorker::turn()
-{
-    TLaserData lsr = laser_proxy->getLaserData();
-    bool closeDistance=false;
-    for(int i=0;i<99;i++)
-        if(lsr[i].dist<350){
-            closeDistance=true;
-        }
-
-    if(!closeDistance){
-        state = State::BUG;
-        differentialrobot_proxy->setSpeedBase(0,0);
-    }else{
-        differentialrobot_proxy->setSpeedBase(0,-1);
-    }
-}
 bool SpecificWorker::atLine(RoboCompGenericBase::TBaseState bState){
     qDebug()<<"At line";
     qDebug()<<"------ COOR: " << line2p.P1X <<" "<< line2p.P1Z <<" "<< line2p.P2X <<" "<< line2p.P2Z;
@@ -266,27 +237,7 @@ bool SpecificWorker::atLine(RoboCompGenericBase::TBaseState bState){
 
     return true;
 }
-void SpecificWorker::bug(RoboCompGenericBase::TBaseState bState)
-{
-    qDebug()<<"Bug";
 
-    TLaserData lsr = laser_proxy->getLaserData();
-    differentialrobot_proxy->setSpeedBase(250,0);
-
-    if(lsr.begin()->dist<340){
-        differentialrobot_proxy->setSpeedBase(200,-0.6);
-
-
-    }
-    if(lsr.begin()->dist>350){
-        differentialrobot_proxy->setSpeedBase(200,0.6);
-
-    }
-    std::sort( lsr.begin(), lsr.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return     a.dist < b.dist; }) ;
-
-    if(lsr.begin()->dist<270){state= State::TURN;}
-    if(atLine(bState)){  state= State::GOTO;  }
-}
 
 
 
@@ -340,6 +291,7 @@ void SpecificWorker::checkTransform(const RoboCompGenericBase::TBaseState &bStat
 
 void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &bState, const RoboCompLaser::TLaserData &ldata)
 {
+/*
     auto *n = innerModel->getNode<InnerModelLaser>("laser");
     for(auto l: ldata)
     {
@@ -348,7 +300,7 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
         auto [valid, cell] = grid.getCell(r.x(), r.z());
                 if(valid)
                 cell.free = false;
-    }
+    }*/
     }
                 void SpecificWorker::updateVisitedCells(int x, int z){
             static unsigned int cont = 0;
@@ -433,6 +385,8 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
             enDestino = false;
         }
 
+
+	
 
 
 

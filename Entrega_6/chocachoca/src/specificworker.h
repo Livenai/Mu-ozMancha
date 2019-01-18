@@ -57,11 +57,6 @@ class SpecificWorker : public GenericWorker
 		void readFromFile();
         void gotoTarget(RoboCompGenericBase::TBaseState bState);
         bool atLine(RoboCompGenericBase::TBaseState bState);
-        void bug(RoboCompGenericBase::TBaseState bState);
-
-        bool obstacle();
-
-        void turn();
 
 	private:
 		std::shared_ptr<InnerModel> innerModel;

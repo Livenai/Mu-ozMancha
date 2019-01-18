@@ -22,7 +22,7 @@ static const uint qt_meta_data_SpecificWorker[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -35,9 +35,6 @@ static const uint qt_meta_data_SpecificWorker[] = {
       39,   15,   15,   15, 0x0a,
       61,   54,   15,   15, 0x0a,
      110,   54,  105,   15, 0x0a,
-     150,   54,   15,   15, 0x0a,
-     187,   15,  105,   15, 0x0a,
-     198,   15,   15,   15, 0x0a,
 
        0        // eod
 };
@@ -47,8 +44,6 @@ static const char qt_meta_stringdata_SpecificWorker[] = {
     "readFromFile()\0bState\0"
     "gotoTarget(RoboCompGenericBase::TBaseState)\0"
     "bool\0atLine(RoboCompGenericBase::TBaseState)\0"
-    "bug(RoboCompGenericBase::TBaseState)\0"
-    "obstacle()\0turn()\0"
 };
 
 void SpecificWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -63,10 +58,6 @@ void SpecificWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 3: _t->gotoTarget((*reinterpret_cast< RoboCompGenericBase::TBaseState(*)>(_a[1]))); break;
         case 4: { bool _r = _t->atLine((*reinterpret_cast< RoboCompGenericBase::TBaseState(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
-        case 5: _t->bug((*reinterpret_cast< RoboCompGenericBase::TBaseState(*)>(_a[1]))); break;
-        case 6: { bool _r = _t->obstacle();
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
-        case 7: _t->turn(); break;
         default: ;
         }
     }
@@ -104,9 +95,9 @@ int SpecificWorker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 5;
     }
     return _id;
 }

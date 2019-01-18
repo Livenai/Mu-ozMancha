@@ -174,11 +174,11 @@ class Grid
          * metodo propio Mu-ozMancha
          */
         bool vecinoValido(const Key &k) const{
-
+		//return true;
             int I = dim.TILE_SIZE;
             std::vector<int> xaux;
             std::vector<int> zaux;
-            int radio = 3; //radio de busqueda de los vecinos validos
+            int radio = 2; //radio de busqueda de los vecinos validos
 
             //vecinos a buscar
             for (int x = I * (-radio); x <= I * radio; x += I) {
