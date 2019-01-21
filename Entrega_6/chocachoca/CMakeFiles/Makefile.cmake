@@ -13,7 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeLists.txt"
   "src/CMakeLists.txt"
   "src/CMakeListsSpecific.txt"
-  "/home/carlos/robocomp/cmake/robocomp.cmake"
+  "/opt/robocomp/cmake/robocomp.cmake"
   "/usr/share/cmake-3.10/Modules/AutogenInfo.cmake.in"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"

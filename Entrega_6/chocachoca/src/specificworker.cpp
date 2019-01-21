@@ -118,16 +118,15 @@ void SpecificWorker::compute()
                     qDebug() << "Arrived to target";
                     targetReady = false;
                     enDestino = true;
+                    camera=false;
                     differentialrobot_proxy->setSpeedBase(0,0);
                 }
                 else{
 
                     currentPoint = path.front();
                     QVec rt = innerModel->transform("base",currentPoint,"world");
-                    //qDebug() << "My pos: "<< bState.x<<"   "<<bState.z<< "El target pos: "<< currentPoint.x() <<"   "<< currentPoint.z() ;
 
                     float dist=rt.norm2();
-                    //qDebug() << "My pos: "<< dist;
                     float angle = atan2(rt.x(), rt.z());
                     if(angle<0.1 && angle > -0.1)
                     {
@@ -384,6 +383,30 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
             planReady = false;
             enDestino = false;
         }
+
+void SpecificWorker::newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState)
+{
+//subscribesToCODE
+
+}
+
+void SpecificWorker::newAprilTag(const tagsList &tags)
+{
+//subscribesToCODE
+    cout << "El tags es ::: "<< tags[0].id << " x "<< tags[0].tx << " y "<< tags[0].ry << " z "<< tags[0].rz << " cameraid "<< tags[0].cameraId<< endl;
+   if(camera==false){
+    target[0] = tags[0].tx;
+    target[2] = tags[2].tz;
+    target[1] = 0;
+   // qDebug() << __FILE__ << __FUNCTION__ << myPick.x << myPick.z ;
+    targetReady = true;
+    camera=true;
+    planReady = false;
+    for(auto gp: greenPath)
+        delete gp;
+    greenPath.clear();
+    }
+}
 
 
 	

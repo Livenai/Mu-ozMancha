@@ -1,5 +1,5 @@
 /*
- *    Copyright (C)2018 by YOUR NAME HERE
+ *    Copyright (C)2019 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -28,8 +28,8 @@ QObject()
 #endif
 
 {
-	laser_proxy = (*(LaserPrx*)mprx["LaserProxy"]);
 	differentialrobot_proxy = (*(DifferentialRobotPrx*)mprx["DifferentialRobotProxy"]);
+	laser_proxy = (*(LaserPrx*)mprx["LaserProxy"]);
 
 	mutex = new QMutex(QMutex::Recursive);
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/apriltagsComp
+CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/apriltagsComp
+CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/AprilTagsComp.dir/depend.make
@@ -57,88 +57,88 @@ include src/CMakeFiles/AprilTagsComp.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/AprilTagsComp.dir/flags.make
 
-src/CommonBehavior.cpp: /home/carlos/robocomp/interfaces/CommonBehavior.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/CommonBehavior.ice --output-dir .
+src/CommonBehavior.cpp: /opt/robocomp/interfaces/CommonBehavior.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CommonBehavior.ice --output-dir .
 
 src/CommonBehavior.h: src/CommonBehavior.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
-src/GetAprilTags.cpp: /home/carlos/robocomp/interfaces/GetAprilTags.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GetAprilTags.cpp and GetAprilTags.h from GetAprilTags.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/GetAprilTags.ice --output-dir .
+src/GetAprilTags.cpp: /opt/robocomp/interfaces/GetAprilTags.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GetAprilTags.cpp and GetAprilTags.h from GetAprilTags.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GetAprilTags.ice --output-dir .
 
 src/GetAprilTags.h: src/GetAprilTags.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GetAprilTags.h
 
-src/AprilTags.cpp: /home/carlos/robocomp/interfaces/AprilTags.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/AprilTags.ice --output-dir .
+src/AprilTags.cpp: /opt/robocomp/interfaces/AprilTags.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/AprilTags.ice --output-dir .
 
 src/AprilTags.h: src/AprilTags.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/AprilTags.h
 
-src/GenericBase.cpp: /home/carlos/robocomp/interfaces/GenericBase.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/GenericBase.ice --output-dir .
+src/GenericBase.cpp: /opt/robocomp/interfaces/GenericBase.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GenericBase.ice --output-dir .
 
 src/GenericBase.h: src/GenericBase.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GenericBase.h
 
-src/JointMotor.cpp: /home/carlos/robocomp/interfaces/JointMotor.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating JointMotor.cpp and JointMotor.h from JointMotor.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/JointMotor.ice --output-dir .
+src/JointMotor.cpp: /opt/robocomp/interfaces/JointMotor.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating JointMotor.cpp and JointMotor.h from JointMotor.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/JointMotor.ice --output-dir .
 
 src/JointMotor.h: src/JointMotor.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/JointMotor.h
 
-src/RGBD.cpp: /home/carlos/robocomp/interfaces/RGBD.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating RGBD.cpp and RGBD.h from RGBD.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/RGBD.ice --output-dir .
+src/RGBD.cpp: /opt/robocomp/interfaces/RGBD.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating RGBD.cpp and RGBD.h from RGBD.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/RGBD.ice --output-dir .
 
 src/RGBD.h: src/RGBD.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/RGBD.h
 
-src/RGBDBus.cpp: /home/carlos/robocomp/interfaces/RGBDBus.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating RGBDBus.cpp and RGBDBus.h from RGBDBus.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/RGBDBus.ice --output-dir .
+src/RGBDBus.cpp: /opt/robocomp/interfaces/RGBDBus.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating RGBDBus.cpp and RGBDBus.h from RGBDBus.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/RGBDBus.ice --output-dir .
 
 src/RGBDBus.h: src/RGBDBus.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/RGBDBus.h
 
-src/Camera.cpp: /home/carlos/robocomp/interfaces/Camera.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Camera.cpp and Camera.h from Camera.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/Camera.ice --output-dir .
+src/Camera.cpp: /opt/robocomp/interfaces/Camera.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Camera.cpp and Camera.h from Camera.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/Camera.ice --output-dir .
 
 src/Camera.h: src/Camera.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/Camera.h
 
-src/CommonHead.cpp: /home/carlos/robocomp/interfaces/CommonHead.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating CommonHead.cpp and CommonHead.h from CommonHead.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/CommonHead.ice --output-dir .
+src/CommonHead.cpp: /opt/robocomp/interfaces/CommonHead.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating CommonHead.cpp and CommonHead.h from CommonHead.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CommonHead.ice --output-dir .
 
 src/CommonHead.h: src/CommonHead.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonHead.h
 
-src/CameraSimple.cpp: /home/carlos/robocomp/interfaces/CameraSimple.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating CameraSimple.cpp and CameraSimple.h from CameraSimple.ice"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/CameraSimple.ice --output-dir .
+src/CameraSimple.cpp: /opt/robocomp/interfaces/CameraSimple.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating CameraSimple.cpp and CameraSimple.h from CameraSimple.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CameraSimple.ice --output-dir .
 
 src/CameraSimple.h: src/CameraSimple.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CameraSimple.h
 
 src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o: src/specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/specificworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificworker.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/specificworker.cpp > CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificworker.cpp > CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/specificworker.cpp -o CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificworker.cpp -o CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o.requires:
 
@@ -153,16 +153,16 @@ src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/specificmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificmonitor.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/specificmonitor.cpp > CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificmonitor.cpp > CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/specificmonitor.cpp -o CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/specificmonitor.cpp -o CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o.requires:
 
@@ -177,16 +177,16 @@ src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o.provides.build: src/CMake
 
 src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o: src/Edge.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Edge.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Edge.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Edge.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Edge.cc
 
 src/CMakeFiles/AprilTagsComp.dir/Edge.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Edge.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Edge.cc > CMakeFiles/AprilTagsComp.dir/Edge.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Edge.cc > CMakeFiles/AprilTagsComp.dir/Edge.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/Edge.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Edge.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Edge.cc -o CMakeFiles/AprilTagsComp.dir/Edge.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Edge.cc -o CMakeFiles/AprilTagsComp.dir/Edge.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o.requires:
 
@@ -201,16 +201,16 @@ src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o.provides.build: src/CMakeFiles/AprilT
 
 src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o: src/FloatImage.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/FloatImage.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/FloatImage.cc
 
 src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/FloatImage.cc > CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/FloatImage.cc > CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/FloatImage.cc -o CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/FloatImage.cc -o CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o.requires:
 
@@ -225,16 +225,16 @@ src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o: src/Gaussian.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Gaussian.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Gaussian.cc
 
 src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Gaussian.cc > CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Gaussian.cc > CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Gaussian.cc -o CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Gaussian.cc -o CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o.requires:
 
@@ -249,16 +249,16 @@ src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o.provides.build: src/CMakeFiles/Ap
 
 src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o: src/GLine2D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/GLine2D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLine2D.cc
 
 src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/GLine2D.cc > CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLine2D.cc > CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/GLine2D.cc -o CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLine2D.cc -o CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o.requires:
 
@@ -273,16 +273,16 @@ src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o.provides.build: src/CMakeFiles/Apr
 
 src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o: src/GLineSegment2D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/GLineSegment2D.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLineSegment2D.cc
 
 src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/GLineSegment2D.cc > CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLineSegment2D.cc > CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/GLineSegment2D.cc -o CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GLineSegment2D.cc -o CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o.requires:
 
@@ -297,16 +297,16 @@ src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o: src/GrayModel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/GrayModel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GrayModel.cc
 
 src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/GrayModel.cc > CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GrayModel.cc > CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/GrayModel.cc -o CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GrayModel.cc -o CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o.requires:
 
@@ -321,16 +321,16 @@ src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o.provides.build: src/CMakeFiles/A
 
 src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o: src/Homography33.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Homography33.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Homography33.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Homography33.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Homography33.cc
 
 src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Homography33.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Homography33.cc > CMakeFiles/AprilTagsComp.dir/Homography33.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Homography33.cc > CMakeFiles/AprilTagsComp.dir/Homography33.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Homography33.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Homography33.cc -o CMakeFiles/AprilTagsComp.dir/Homography33.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Homography33.cc -o CMakeFiles/AprilTagsComp.dir/Homography33.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o.requires:
 
@@ -345,16 +345,16 @@ src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o: src/MathUtil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/MathUtil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/MathUtil.cc
 
 src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/MathUtil.cc > CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/MathUtil.cc > CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/MathUtil.cc -o CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/MathUtil.cc -o CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o.requires:
 
@@ -369,16 +369,16 @@ src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o.provides.build: src/CMakeFiles/Ap
 
 src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o: src/Quad.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Quad.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Quad.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Quad.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Quad.cc
 
 src/CMakeFiles/AprilTagsComp.dir/Quad.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Quad.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Quad.cc > CMakeFiles/AprilTagsComp.dir/Quad.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Quad.cc > CMakeFiles/AprilTagsComp.dir/Quad.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/Quad.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Quad.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Quad.cc -o CMakeFiles/AprilTagsComp.dir/Quad.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Quad.cc -o CMakeFiles/AprilTagsComp.dir/Quad.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o.requires:
 
@@ -393,16 +393,16 @@ src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o.provides.build: src/CMakeFiles/AprilT
 
 src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o: src/Segment.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Segment.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Segment.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Segment.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Segment.cc
 
 src/CMakeFiles/AprilTagsComp.dir/Segment.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Segment.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Segment.cc > CMakeFiles/AprilTagsComp.dir/Segment.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Segment.cc > CMakeFiles/AprilTagsComp.dir/Segment.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/Segment.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Segment.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Segment.cc -o CMakeFiles/AprilTagsComp.dir/Segment.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Segment.cc -o CMakeFiles/AprilTagsComp.dir/Segment.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o.requires:
 
@@ -417,16 +417,16 @@ src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o.provides.build: src/CMakeFiles/Apr
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o: src/TagDetection.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetection.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetection.cc
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetection.cc > CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetection.cc > CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetection.cc -o CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetection.cc -o CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o.requires:
 
@@ -441,16 +441,16 @@ src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o: src/TagDetector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetector.cc
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetector.cc > CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetector.cc > CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/TagDetector.cc -o CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagDetector.cc -o CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o.requires:
 
@@ -465,16 +465,16 @@ src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o: src/TagFamily.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/TagFamily.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagFamily.cc
 
 src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/TagFamily.cc > CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagFamily.cc > CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/TagFamily.cc -o CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/TagFamily.cc -o CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o.requires:
 
@@ -489,16 +489,16 @@ src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o.provides.build: src/CMakeFiles/A
 
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o: src/UnionFindSimple.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/UnionFindSimple.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/UnionFindSimple.cc
 
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/UnionFindSimple.cc > CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/UnionFindSimple.cc > CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i
 
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/UnionFindSimple.cc -o CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/UnionFindSimple.cc -o CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s
 
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o.requires:
 
@@ -511,90 +511,90 @@ src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o.provides: src/CMakeFiles/A
 src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o
 
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o: /home/carlos/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o -c /home/carlos/robocomp/classes/rapplication/rapplication.cpp
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: /opt/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o -c /opt/robocomp/classes/rapplication/rapplication.cpp
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires:
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
-
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
 
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o: /home/carlos/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o -c /home/carlos/robocomp/classes/qlog/qlog.cpp
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: /opt/robocomp/classes/sigwatch/sigwatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o -c /opt/robocomp/classes/sigwatch/sigwatch.cpp
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/qlog/qlog.cpp > CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires:
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides.build
-.PHONY : src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
 
-src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o: /opt/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o -c /opt/robocomp/classes/qlog/qlog.cpp
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/qlog/qlog.cpp > CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.i
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.s
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build
+.PHONY : src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides
+
+src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 
 
 src/CMakeFiles/AprilTagsComp.dir/main.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/main.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/main.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/main.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/main.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/main.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/main.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/main.cpp > CMakeFiles/AprilTagsComp.dir/main.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/main.cpp > CMakeFiles/AprilTagsComp.dir/main.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/main.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/main.cpp -o CMakeFiles/AprilTagsComp.dir/main.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/main.cpp -o CMakeFiles/AprilTagsComp.dir/main.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/main.cpp.o.requires:
 
@@ -609,16 +609,16 @@ src/CMakeFiles/AprilTagsComp.dir/main.cpp.o.provides.build: src/CMakeFiles/April
 
 src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/genericmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericmonitor.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/genericmonitor.cpp > CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericmonitor.cpp > CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/genericmonitor.cpp -o CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericmonitor.cpp -o CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o.requires:
 
@@ -633,16 +633,16 @@ src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/commonbehaviorI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/commonbehaviorI.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/commonbehaviorI.cpp > CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/commonbehaviorI.cpp > CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/commonbehaviorI.cpp -o CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/commonbehaviorI.cpp -o CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o.requires:
 
@@ -657,16 +657,16 @@ src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o.provides.build: src/CMake
 
 src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o: src/genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/genericworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericworker.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/genericworker.cpp > CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericworker.cpp > CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/genericworker.cpp -o CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/genericworker.cpp -o CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o.requires:
 
@@ -681,16 +681,16 @@ src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o: src/getapriltagsI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/getapriltagsI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/getapriltagsI.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/getapriltagsI.cpp > CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/getapriltagsI.cpp > CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/getapriltagsI.cpp -o CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/getapriltagsI.cpp -o CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o.requires:
 
@@ -705,16 +705,16 @@ src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonBehavior.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/CommonBehavior.cpp > CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonBehavior.cpp > CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/CommonBehavior.cpp -o CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonBehavior.cpp -o CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o.requires:
 
@@ -729,16 +729,16 @@ src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o: src/GetAprilTags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/GetAprilTags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GetAprilTags.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/GetAprilTags.cpp > CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GetAprilTags.cpp > CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/GetAprilTags.cpp -o CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GetAprilTags.cpp -o CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o.requires:
 
@@ -753,16 +753,16 @@ src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o: src/AprilTags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTags.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTags.cpp > CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTags.cpp > CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTags.cpp -o CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTags.cpp -o CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o.requires:
 
@@ -777,16 +777,16 @@ src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o: src/GenericBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/GenericBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GenericBase.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/GenericBase.cpp > CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GenericBase.cpp > CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/GenericBase.cpp -o CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/GenericBase.cpp -o CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o.requires:
 
@@ -801,16 +801,16 @@ src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o: src/JointMotor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/JointMotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/JointMotor.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/JointMotor.cpp > CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/JointMotor.cpp > CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/JointMotor.cpp -o CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/JointMotor.cpp -o CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o.requires:
 
@@ -825,16 +825,16 @@ src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o: src/RGBD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/RGBD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBD.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/RGBD.cpp > CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBD.cpp > CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/RGBD.cpp -o CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBD.cpp -o CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o.requires:
 
@@ -849,16 +849,16 @@ src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o.provides.build: src/CMakeFiles/April
 
 src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o: src/RGBDBus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/RGBDBus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBDBus.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/RGBDBus.cpp > CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBDBus.cpp > CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/RGBDBus.cpp -o CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/RGBDBus.cpp -o CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o.requires:
 
@@ -873,16 +873,16 @@ src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o.provides.build: src/CMakeFiles/Ap
 
 src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o: src/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Camera.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/Camera.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Camera.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/Camera.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/Camera.cpp > CMakeFiles/AprilTagsComp.dir/Camera.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Camera.cpp > CMakeFiles/AprilTagsComp.dir/Camera.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/Camera.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/Camera.cpp -o CMakeFiles/AprilTagsComp.dir/Camera.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/Camera.cpp -o CMakeFiles/AprilTagsComp.dir/Camera.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o.requires:
 
@@ -897,16 +897,16 @@ src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o.provides.build: src/CMakeFiles/Apr
 
 src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o: src/CommonHead.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/CommonHead.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonHead.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/CommonHead.cpp > CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonHead.cpp > CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/CommonHead.cpp -o CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CommonHead.cpp -o CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o.requires:
 
@@ -921,16 +921,16 @@ src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o: src/CameraSimple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/CameraSimple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CameraSimple.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/CameraSimple.cpp > CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CameraSimple.cpp > CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/CameraSimple.cpp -o CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CameraSimple.cpp -o CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o.requires:
 
@@ -945,16 +945,16 @@ src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o: src/CMakeFiles/AprilTagsComp.dir/flags.make
 src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o: src/AprilTagsComp_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o -c /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp > CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp > CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp -o CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/AprilTagsComp_autogen/mocs_compilation.cpp -o CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o.requires:
 
@@ -985,9 +985,9 @@ AprilTagsComp_OBJECTS = \
 "CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o" \
 "CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o" \
 "CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o" \
-"CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o" \
-"CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o" \
-"CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o" \
+"CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o" \
+"CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o" \
+"CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o" \
 "CMakeFiles/AprilTagsComp.dir/main.cpp.o" \
 "CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o" \
 "CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o" \
@@ -1024,9 +1024,9 @@ bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o
-bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
-bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
+bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
+bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/main.cpp.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o
@@ -1048,54 +1048,38 @@ bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtGui.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtXml.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtCore.so
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_ml.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_shape.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_videostab.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_photo.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_stitching.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_superres.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_video.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_objdetect.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_dnn.so.3.4.0
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtGui.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtXml.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libQtCore.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIce.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIceStorm.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIce.so
 bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIceStorm.so
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIce.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIceStorm.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIce.so
+bin/AprilTagsComp: /usr/lib/x86_64-linux-gnu/libIceStorm.so
+bin/AprilTagsComp: /usr/local/lib/libopencv_calib3d.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_features2d.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_highgui.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_flann.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_videoio.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_imgcodecs.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_imgproc.so.3.4.0
+bin/AprilTagsComp: /usr/local/lib/libopencv_core.so.3.4.0
 bin/AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX executable ../bin/AprilTagsComp"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AprilTagsComp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX executable ../bin/AprilTagsComp"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AprilTagsComp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/AprilTagsComp.dir/build: bin/AprilTagsComp
@@ -1118,9 +1102,9 @@ src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/TagD
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o.requires
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o.requires
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o.requires
-src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
-src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
+src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/main.cpp.o.requires
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o.requires
 src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o.requires
@@ -1141,7 +1125,7 @@ src/CMakeFiles/AprilTagsComp.dir/requires: src/CMakeFiles/AprilTagsComp.dir/Apri
 .PHONY : src/CMakeFiles/AprilTagsComp.dir/requires
 
 src/CMakeFiles/AprilTagsComp.dir/clean:
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagsComp.dir/cmake_clean.cmake
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagsComp.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/AprilTagsComp.dir/clean
 
 src/CMakeFiles/AprilTagsComp.dir/depend: src/CommonBehavior.cpp
@@ -1164,6 +1148,6 @@ src/CMakeFiles/AprilTagsComp.dir/depend: src/CommonHead.cpp
 src/CMakeFiles/AprilTagsComp.dir/depend: src/CommonHead.h
 src/CMakeFiles/AprilTagsComp.dir/depend: src/CameraSimple.cpp
 src/CMakeFiles/AprilTagsComp.dir/depend: src/CameraSimple.h
-	cd /home/carlos/robocomp/E_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/robocomp/E_6/apriltagsComp /home/carlos/robocomp/E_6/apriltagsComp/src /home/carlos/robocomp/E_6/apriltagsComp /home/carlos/robocomp/E_6/apriltagsComp/src /home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/AprilTagsComp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CMakeFiles/AprilTagsComp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/AprilTagsComp.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/apriltagsComp
+CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/apriltagsComp
+CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
 
 # Utility rule file for AprilTagsComp_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/apriltagsComp
 include src/CMakeFiles/AprilTagsComp_autogen.dir/progress.make
 
 src/CMakeFiles/AprilTagsComp_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target AprilTagsComp"
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && /usr/bin/cmake -E cmake_autogen /home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/AprilTagsComp_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target AprilTagsComp"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && /usr/bin/cmake -E cmake_autogen /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CMakeFiles/AprilTagsComp_autogen.dir ""
 
 AprilTagsComp_autogen: src/CMakeFiles/AprilTagsComp_autogen
 AprilTagsComp_autogen: src/CMakeFiles/AprilTagsComp_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/AprilTagsComp_autogen.dir/build: AprilTagsComp_autogen
 .PHONY : src/CMakeFiles/AprilTagsComp_autogen.dir/build
 
 src/CMakeFiles/AprilTagsComp_autogen.dir/clean:
-	cd /home/carlos/robocomp/E_6/apriltagsComp/src && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagsComp_autogen.dir/cmake_clean.cmake
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagsComp_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/AprilTagsComp_autogen.dir/clean
 
 src/CMakeFiles/AprilTagsComp_autogen.dir/depend:
-	cd /home/carlos/robocomp/E_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/robocomp/E_6/apriltagsComp /home/carlos/robocomp/E_6/apriltagsComp/src /home/carlos/robocomp/E_6/apriltagsComp /home/carlos/robocomp/E_6/apriltagsComp/src /home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/AprilTagsComp_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CMakeFiles/AprilTagsComp_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/AprilTagsComp_autogen.dir/depend
 

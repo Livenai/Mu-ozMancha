@@ -22,17 +22,20 @@ SET ( SOURCES
   $ENV{ROBOCOMP}/classes/qlog/qlog.cpp
   main.cpp
   genericmonitor.cpp
+  specificmonitor.cpp
   commonbehaviorI.cpp
   genericworker.cpp
+  specificworker.cpp
   gotopointI.cpp
   rcismousepickerI.cpp
+  apriltagsI.cpp
 )
 
 
 
 #ROBOCOMP
 ROBOCOMP_INITIALIZE( $ENV{ROBOCOMP}/ )
-ROBOCOMP_WRAP_ICE( CommonBehavior Laser  GenericBase  DifferentialRobot  GenericBase  RCISMousePicker  GotoPoint )
+ROBOCOMP_WRAP_ICE( CommonBehavior Laser  GenericBase  DifferentialRobot  GenericBase  RCISMousePicker  GotoPoint  AprilTags  GenericBase  JointMotor )
 SET (EXECUTABLE_OUTPUT_PATH ${RC_COMPONENT_DEVEL_PATH}/bin)
 
 # Qt4
@@ -44,7 +47,6 @@ SET( QT_USE_QTXML TRUE )
 SET( QT_USE_QTSTATE TRUE )
 SET( QT_USE_QTSTATEMACHINE TRUE )
 SET( CMAKE_AUTOMOC TRUE )
-SET( CMAKE_AUTOUIC TRUE )
 INCLUDE( ${QT_USE_FILE} )
 QT4_WRAP_UI( UI_HEADERS mainUI.ui )
 

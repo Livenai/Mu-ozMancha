@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/chocachoca
+CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/chocachoca
+CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/chocachoca.dir/depend.make
@@ -57,64 +57,78 @@ include src/CMakeFiles/chocachoca.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/chocachoca.dir/flags.make
 
-src/CommonBehavior.cpp: /home/carlos/robocomp/interfaces/CommonBehavior.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/CommonBehavior.ice --output-dir .
+src/CommonBehavior.cpp: /opt/robocomp/interfaces/CommonBehavior.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.cpp and CommonBehavior.h from CommonBehavior.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/CommonBehavior.ice --output-dir .
 
 src/CommonBehavior.h: src/CommonBehavior.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
-src/Laser.cpp: /home/carlos/robocomp/interfaces/Laser.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Laser.cpp and Laser.h from Laser.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/Laser.ice --output-dir .
+src/Laser.cpp: /opt/robocomp/interfaces/Laser.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Laser.cpp and Laser.h from Laser.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/Laser.ice --output-dir .
 
 src/Laser.h: src/Laser.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/Laser.h
 
-src/GenericBase.cpp: /home/carlos/robocomp/interfaces/GenericBase.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/GenericBase.ice --output-dir .
+src/GenericBase.cpp: /opt/robocomp/interfaces/GenericBase.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating GenericBase.cpp and GenericBase.h from GenericBase.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GenericBase.ice --output-dir .
 
 src/GenericBase.h: src/GenericBase.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GenericBase.h
 
-src/DifferentialRobot.cpp: /home/carlos/robocomp/interfaces/DifferentialRobot.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/DifferentialRobot.ice --output-dir .
+src/DifferentialRobot.cpp: /opt/robocomp/interfaces/DifferentialRobot.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating DifferentialRobot.cpp and DifferentialRobot.h from DifferentialRobot.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/DifferentialRobot.ice --output-dir .
 
 src/DifferentialRobot.h: src/DifferentialRobot.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/DifferentialRobot.h
 
-src/RCISMousePicker.cpp: /home/carlos/robocomp/interfaces/RCISMousePicker.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating RCISMousePicker.cpp and RCISMousePicker.h from RCISMousePicker.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/RCISMousePicker.ice --output-dir .
+src/RCISMousePicker.cpp: /opt/robocomp/interfaces/RCISMousePicker.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating RCISMousePicker.cpp and RCISMousePicker.h from RCISMousePicker.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/RCISMousePicker.ice --output-dir .
 
 src/RCISMousePicker.h: src/RCISMousePicker.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/RCISMousePicker.h
 
-src/GotoPoint.cpp: /home/carlos/robocomp/interfaces/GotoPoint.ice
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating GotoPoint.cpp and GotoPoint.h from GotoPoint.ice"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && slice2cpp --underscore -I/home/carlos/robocomp//interfaces/ -I/home/carlos/robocomp/interfaces -I/opt/robocomp/interfaces -I. /home/carlos/robocomp/interfaces/GotoPoint.ice --output-dir .
+src/GotoPoint.cpp: /opt/robocomp/interfaces/GotoPoint.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating GotoPoint.cpp and GotoPoint.h from GotoPoint.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/GotoPoint.ice --output-dir .
 
 src/GotoPoint.h: src/GotoPoint.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate src/GotoPoint.h
 
+src/AprilTags.cpp: /opt/robocomp/interfaces/AprilTags.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating AprilTags.cpp and AprilTags.h from AprilTags.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/AprilTags.ice --output-dir .
+
+src/AprilTags.h: src/AprilTags.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/AprilTags.h
+
+src/JointMotor.cpp: /opt/robocomp/interfaces/JointMotor.ice
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating JointMotor.cpp and JointMotor.h from JointMotor.ice"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && slice2cpp -I/opt/robocomp///interfaces/ -I/opt/robocomp//interfaces -I/opt/robocomp/interfaces -I. /opt/robocomp//interfaces/JointMotor.ice --output-dir .
+
+src/JointMotor.h: src/JointMotor.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/JointMotor.h
+
 src/ui_mainUI.h: src/mainUI.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_mainUI.h"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/carlos/robocomp/E_6/chocachoca/src/ui_mainUI.h /home/carlos/robocomp/E_6/chocachoca/src/mainUI.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_mainUI.h"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/ui_mainUI.h /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/mainUI.ui
 
 src/CMakeFiles/chocachoca.dir/specificworker.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/specificworker.cpp.o: src/specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/chocachoca.dir/specificworker.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/specificworker.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/specificworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/chocachoca.dir/specificworker.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/specificworker.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.cpp
 
 src/CMakeFiles/chocachoca.dir/specificworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/specificworker.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/specificworker.cpp > CMakeFiles/chocachoca.dir/specificworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.cpp > CMakeFiles/chocachoca.dir/specificworker.cpp.i
 
 src/CMakeFiles/chocachoca.dir/specificworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/specificworker.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/specificworker.cpp -o CMakeFiles/chocachoca.dir/specificworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.cpp -o CMakeFiles/chocachoca.dir/specificworker.cpp.s
 
 src/CMakeFiles/chocachoca.dir/specificworker.cpp.o.requires:
 
@@ -129,16 +143,16 @@ src/CMakeFiles/chocachoca.dir/specificworker.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/specificmonitor.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/specificmonitor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.cpp
 
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/specificmonitor.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.cpp > CMakeFiles/chocachoca.dir/specificmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.cpp > CMakeFiles/chocachoca.dir/specificmonitor.cpp.i
 
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/specificmonitor.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.cpp -o CMakeFiles/chocachoca.dir/specificmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.cpp -o CMakeFiles/chocachoca.dir/specificmonitor.cpp.s
 
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o.requires:
 
@@ -151,90 +165,90 @@ src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o.provides: src/CMakeFiles/cho
 src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o
 
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o: /home/carlos/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o -c /home/carlos/robocomp/classes/rapplication/rapplication.cpp
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o: /opt/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o -c /opt/robocomp/classes/rapplication/rapplication.cpp
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires:
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
-
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
 
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o: /home/carlos/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o -c /home/carlos/robocomp/classes/qlog/qlog.cpp
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o: /opt/robocomp/classes/sigwatch/sigwatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o -c /opt/robocomp/classes/sigwatch/sigwatch.cpp
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/classes/qlog/qlog.cpp > CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires:
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides.build
-.PHONY : src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides
 
-src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o: /opt/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o -c /opt/robocomp/classes/qlog/qlog.cpp
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/robocomp/classes/qlog/qlog.cpp > CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.i
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.s
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides
+
+src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 
 
 src/CMakeFiles/chocachoca.dir/main.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/chocachoca.dir/main.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/main.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/chocachoca.dir/main.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/main.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/main.cpp
 
 src/CMakeFiles/chocachoca.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/main.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/main.cpp > CMakeFiles/chocachoca.dir/main.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/main.cpp > CMakeFiles/chocachoca.dir/main.cpp.i
 
 src/CMakeFiles/chocachoca.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/main.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/main.cpp -o CMakeFiles/chocachoca.dir/main.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/main.cpp -o CMakeFiles/chocachoca.dir/main.cpp.s
 
 src/CMakeFiles/chocachoca.dir/main.cpp.o.requires:
 
@@ -249,16 +263,16 @@ src/CMakeFiles/chocachoca.dir/main.cpp.o.provides.build: src/CMakeFiles/chocacho
 
 src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/genericmonitor.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/genericmonitor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.cpp
 
 src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/genericmonitor.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.cpp > CMakeFiles/chocachoca.dir/genericmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.cpp > CMakeFiles/chocachoca.dir/genericmonitor.cpp.i
 
 src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/genericmonitor.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.cpp -o CMakeFiles/chocachoca.dir/genericmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.cpp -o CMakeFiles/chocachoca.dir/genericmonitor.cpp.s
 
 src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o.requires:
 
@@ -273,16 +287,16 @@ src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.cpp
 
 src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.cpp > CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.cpp > CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i
 
 src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.cpp -o CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.cpp -o CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s
 
 src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o.requires:
 
@@ -297,16 +311,16 @@ src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/chocachoca.dir/genericworker.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/genericworker.cpp.o: src/genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/chocachoca.dir/genericworker.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/genericworker.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/genericworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/chocachoca.dir/genericworker.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/genericworker.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.cpp
 
 src/CMakeFiles/chocachoca.dir/genericworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/genericworker.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/genericworker.cpp > CMakeFiles/chocachoca.dir/genericworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.cpp > CMakeFiles/chocachoca.dir/genericworker.cpp.i
 
 src/CMakeFiles/chocachoca.dir/genericworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/genericworker.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/genericworker.cpp -o CMakeFiles/chocachoca.dir/genericworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.cpp -o CMakeFiles/chocachoca.dir/genericworker.cpp.s
 
 src/CMakeFiles/chocachoca.dir/genericworker.cpp.o.requires:
 
@@ -321,16 +335,16 @@ src/CMakeFiles/chocachoca.dir/genericworker.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o: src/gotopointI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/gotopointI.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/gotopointI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/gotopointI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.cpp
 
 src/CMakeFiles/chocachoca.dir/gotopointI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/gotopointI.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/gotopointI.cpp > CMakeFiles/chocachoca.dir/gotopointI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.cpp > CMakeFiles/chocachoca.dir/gotopointI.cpp.i
 
 src/CMakeFiles/chocachoca.dir/gotopointI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/gotopointI.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/gotopointI.cpp -o CMakeFiles/chocachoca.dir/gotopointI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.cpp -o CMakeFiles/chocachoca.dir/gotopointI.cpp.s
 
 src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o.requires:
 
@@ -345,16 +359,16 @@ src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o.provides.build: src/CMakeFiles/ch
 
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o: src/rcismousepickerI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.cpp
 
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.cpp > CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.cpp > CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.i
 
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.cpp -o CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.cpp -o CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.s
 
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o.requires:
 
@@ -367,18 +381,42 @@ src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o.provides: src/CMakeFiles/ch
 src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o
 
 
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o: src/apriltagsI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/apriltagsI.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.cpp
+
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/apriltagsI.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.cpp > CMakeFiles/chocachoca.dir/apriltagsI.cpp.i
+
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/apriltagsI.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.cpp -o CMakeFiles/chocachoca.dir/apriltagsI.cpp.s
+
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.requires
+
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.provides: src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.provides
+
+src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o
+
+
 src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/CommonBehavior.cpp
 
 src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/CommonBehavior.cpp > CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/CommonBehavior.cpp > CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i
 
 src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/CommonBehavior.cpp -o CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/CommonBehavior.cpp -o CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s
 
 src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o.requires:
 
@@ -393,16 +431,16 @@ src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/chocachoca.dir/Laser.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/Laser.cpp.o: src/Laser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/chocachoca.dir/Laser.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/Laser.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/Laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/chocachoca.dir/Laser.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/Laser.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/Laser.cpp
 
 src/CMakeFiles/chocachoca.dir/Laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/Laser.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/Laser.cpp > CMakeFiles/chocachoca.dir/Laser.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/Laser.cpp > CMakeFiles/chocachoca.dir/Laser.cpp.i
 
 src/CMakeFiles/chocachoca.dir/Laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/Laser.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/Laser.cpp -o CMakeFiles/chocachoca.dir/Laser.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/Laser.cpp -o CMakeFiles/chocachoca.dir/Laser.cpp.s
 
 src/CMakeFiles/chocachoca.dir/Laser.cpp.o.requires:
 
@@ -417,16 +455,16 @@ src/CMakeFiles/chocachoca.dir/Laser.cpp.o.provides.build: src/CMakeFiles/chocach
 
 src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o: src/GenericBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/GenericBase.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/GenericBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/GenericBase.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GenericBase.cpp
 
 src/CMakeFiles/chocachoca.dir/GenericBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/GenericBase.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/GenericBase.cpp > CMakeFiles/chocachoca.dir/GenericBase.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GenericBase.cpp > CMakeFiles/chocachoca.dir/GenericBase.cpp.i
 
 src/CMakeFiles/chocachoca.dir/GenericBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/GenericBase.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/GenericBase.cpp -o CMakeFiles/chocachoca.dir/GenericBase.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GenericBase.cpp -o CMakeFiles/chocachoca.dir/GenericBase.cpp.s
 
 src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o.requires:
 
@@ -441,16 +479,16 @@ src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o.provides.build: src/CMakeFiles/c
 
 src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/DifferentialRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/DifferentialRobot.cpp
 
 src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/DifferentialRobot.cpp > CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/DifferentialRobot.cpp > CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.i
 
 src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/DifferentialRobot.cpp -o CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/DifferentialRobot.cpp -o CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.s
 
 src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o.requires:
 
@@ -465,16 +503,16 @@ src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o: src/RCISMousePicker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/RCISMousePicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/RCISMousePicker.cpp
 
 src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/RCISMousePicker.cpp > CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/RCISMousePicker.cpp > CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.i
 
 src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/RCISMousePicker.cpp -o CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/RCISMousePicker.cpp -o CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.s
 
 src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o.requires:
 
@@ -489,16 +527,16 @@ src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o: src/GotoPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/GotoPoint.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/GotoPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/GotoPoint.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GotoPoint.cpp
 
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/GotoPoint.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/GotoPoint.cpp > CMakeFiles/chocachoca.dir/GotoPoint.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GotoPoint.cpp > CMakeFiles/chocachoca.dir/GotoPoint.cpp.i
 
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/GotoPoint.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/GotoPoint.cpp -o CMakeFiles/chocachoca.dir/GotoPoint.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GotoPoint.cpp -o CMakeFiles/chocachoca.dir/GotoPoint.cpp.s
 
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o.requires:
 
@@ -511,18 +549,66 @@ src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o.provides: src/CMakeFiles/chocachoc
 src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o
 
 
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o: src/AprilTags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/AprilTags.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/AprilTags.cpp
+
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/AprilTags.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/AprilTags.cpp > CMakeFiles/chocachoca.dir/AprilTags.cpp.i
+
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/AprilTags.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/AprilTags.cpp -o CMakeFiles/chocachoca.dir/AprilTags.cpp.s
+
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.requires
+
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.provides: src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.provides
+
+src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o
+
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o: src/JointMotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/JointMotor.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/JointMotor.cpp
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/JointMotor.cpp.i"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/JointMotor.cpp > CMakeFiles/chocachoca.dir/JointMotor.cpp.i
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/JointMotor.cpp.s"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/JointMotor.cpp -o CMakeFiles/chocachoca.dir/JointMotor.cpp.s
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.requires
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.provides: src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.provides.build
+.PHONY : src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.provides
+
+src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.provides.build: src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o
+
+
 src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o: src/CMakeFiles/chocachoca.dir/flags.make
 src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o: src/chocachoca_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o -c /home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o -c /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp > CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp > CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp -o CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp -o CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o.requires:
 
@@ -539,21 +625,24 @@ src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o.provides
 chocachoca_OBJECTS = \
 "CMakeFiles/chocachoca.dir/specificworker.cpp.o" \
 "CMakeFiles/chocachoca.dir/specificmonitor.cpp.o" \
-"CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o" \
-"CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o" \
-"CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o" \
+"CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o" \
+"CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o" \
+"CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o" \
 "CMakeFiles/chocachoca.dir/main.cpp.o" \
 "CMakeFiles/chocachoca.dir/genericmonitor.cpp.o" \
 "CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o" \
 "CMakeFiles/chocachoca.dir/genericworker.cpp.o" \
 "CMakeFiles/chocachoca.dir/gotopointI.cpp.o" \
 "CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o" \
+"CMakeFiles/chocachoca.dir/apriltagsI.cpp.o" \
 "CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o" \
 "CMakeFiles/chocachoca.dir/Laser.cpp.o" \
 "CMakeFiles/chocachoca.dir/GenericBase.cpp.o" \
 "CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o" \
 "CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o" \
 "CMakeFiles/chocachoca.dir/GotoPoint.cpp.o" \
+"CMakeFiles/chocachoca.dir/AprilTags.cpp.o" \
+"CMakeFiles/chocachoca.dir/JointMotor.cpp.o" \
 "CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o"
 
 # External object files for target chocachoca
@@ -561,32 +650,41 @@ chocachoca_EXTERNAL_OBJECTS =
 
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/specificworker.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o
-bin/chocachoca: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-bin/chocachoca: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
-bin/chocachoca: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/main.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/genericworker.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/Laser.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o
+bin/chocachoca: src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/build.make
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtGui.so
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtXml.so
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtCore.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtGui.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtXml.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libQtCore.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libIce.so
+bin/chocachoca: /usr/lib/x86_64-linux-gnu/libIceStorm.so
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libIce.so
 bin/chocachoca: /usr/lib/x86_64-linux-gnu/libIceStorm.so
 bin/chocachoca: src/CMakeFiles/chocachoca.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carlos/robocomp/E_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable ../bin/chocachoca"
-	cd /home/carlos/robocomp/E_6/chocachoca/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chocachoca.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable ../bin/chocachoca"
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chocachoca.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/chocachoca.dir/build: bin/chocachoca
@@ -595,27 +693,30 @@ src/CMakeFiles/chocachoca.dir/build: bin/chocachoca
 
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/specificworker.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o.requires
-src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o.requires
-src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
-src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/opt/robocomp/classes/qlog/qlog.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/main.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/genericworker.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/gotopointI.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/rcismousepickerI.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/apriltagsI.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/Laser.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/GenericBase.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/DifferentialRobot.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/RCISMousePicker.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/AprilTags.cpp.o.requires
+src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/JointMotor.cpp.o.requires
 src/CMakeFiles/chocachoca.dir/requires: src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o.requires
 
 .PHONY : src/CMakeFiles/chocachoca.dir/requires
 
 src/CMakeFiles/chocachoca.dir/clean:
-	cd /home/carlos/robocomp/E_6/chocachoca/src && $(CMAKE_COMMAND) -P CMakeFiles/chocachoca.dir/cmake_clean.cmake
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src && $(CMAKE_COMMAND) -P CMakeFiles/chocachoca.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/chocachoca.dir/clean
 
 src/CMakeFiles/chocachoca.dir/depend: src/CommonBehavior.cpp
@@ -630,7 +731,11 @@ src/CMakeFiles/chocachoca.dir/depend: src/RCISMousePicker.cpp
 src/CMakeFiles/chocachoca.dir/depend: src/RCISMousePicker.h
 src/CMakeFiles/chocachoca.dir/depend: src/GotoPoint.cpp
 src/CMakeFiles/chocachoca.dir/depend: src/GotoPoint.h
+src/CMakeFiles/chocachoca.dir/depend: src/AprilTags.cpp
+src/CMakeFiles/chocachoca.dir/depend: src/AprilTags.h
+src/CMakeFiles/chocachoca.dir/depend: src/JointMotor.cpp
+src/CMakeFiles/chocachoca.dir/depend: src/JointMotor.h
 src/CMakeFiles/chocachoca.dir/depend: src/ui_mainUI.h
-	cd /home/carlos/robocomp/E_6/chocachoca && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/robocomp/E_6/chocachoca /home/carlos/robocomp/E_6/chocachoca/src /home/carlos/robocomp/E_6/chocachoca /home/carlos/robocomp/E_6/chocachoca/src /home/carlos/robocomp/E_6/chocachoca/src/CMakeFiles/chocachoca.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/CMakeFiles/chocachoca.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/chocachoca.dir/depend
 

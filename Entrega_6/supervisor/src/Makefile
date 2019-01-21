@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/supervisor
+CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/supervisor
+CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/carlos/robocomp/E_6/supervisor && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/supervisor/CMakeFiles /home/carlos/robocomp/E_6/supervisor/src/CMakeFiles/progress.marks
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/supervisor/CMakeFiles 0
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor/CMakeFiles /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor/src/CMakeFiles/progress.marks
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/carlos/robocomp/E_6/supervisor && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/chocachoca.dir/rule:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chocachoca.dir/rule
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chocachoca.dir/rule
 .PHONY : src/CMakeFiles/chocachoca.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ chocachoca: src/CMakeFiles/chocachoca.dir/rule
 
 # fast build rule for target.
 chocachoca/fast:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/build
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/build
 .PHONY : chocachoca/fast
 
 # Convenience name for target.
 src/CMakeFiles/chocachoca_autogen.dir/rule:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chocachoca_autogen.dir/rule
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chocachoca_autogen.dir/rule
 .PHONY : src/CMakeFiles/chocachoca_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ chocachoca_autogen: src/CMakeFiles/chocachoca_autogen.dir/rule
 
 # fast build rule for target.
 chocachoca_autogen/fast:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca_autogen.dir/build.make src/CMakeFiles/chocachoca_autogen.dir/build
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca_autogen.dir/build.make src/CMakeFiles/chocachoca_autogen.dir/build
 .PHONY : chocachoca_autogen/fast
 
 CommonBehavior.o: CommonBehavior.cpp.o
@@ -192,7 +192,7 @@ CommonBehavior.o: CommonBehavior.cpp.o
 
 # target to build an object file
 CommonBehavior.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.o
 .PHONY : CommonBehavior.cpp.o
 
 CommonBehavior.i: CommonBehavior.cpp.i
@@ -201,7 +201,7 @@ CommonBehavior.i: CommonBehavior.cpp.i
 
 # target to preprocess a source file
 CommonBehavior.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.i
 .PHONY : CommonBehavior.cpp.i
 
 CommonBehavior.s: CommonBehavior.cpp.s
@@ -210,7 +210,7 @@ CommonBehavior.s: CommonBehavior.cpp.s
 
 # target to generate assembly for a file
 CommonBehavior.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/CommonBehavior.cpp.s
 .PHONY : CommonBehavior.cpp.s
 
 GotoPoint.o: GotoPoint.cpp.o
@@ -219,7 +219,7 @@ GotoPoint.o: GotoPoint.cpp.o
 
 # target to build an object file
 GotoPoint.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.o
 .PHONY : GotoPoint.cpp.o
 
 GotoPoint.i: GotoPoint.cpp.i
@@ -228,7 +228,7 @@ GotoPoint.i: GotoPoint.cpp.i
 
 # target to preprocess a source file
 GotoPoint.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.i
 .PHONY : GotoPoint.cpp.i
 
 GotoPoint.s: GotoPoint.cpp.s
@@ -237,7 +237,7 @@ GotoPoint.s: GotoPoint.cpp.s
 
 # target to generate assembly for a file
 GotoPoint.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/GotoPoint.cpp.s
 .PHONY : GotoPoint.cpp.s
 
 chocachoca_autogen/mocs_compilation.o: chocachoca_autogen/mocs_compilation.cpp.o
@@ -246,7 +246,7 @@ chocachoca_autogen/mocs_compilation.o: chocachoca_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 chocachoca_autogen/mocs_compilation.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.o
 .PHONY : chocachoca_autogen/mocs_compilation.cpp.o
 
 chocachoca_autogen/mocs_compilation.i: chocachoca_autogen/mocs_compilation.cpp.i
@@ -255,7 +255,7 @@ chocachoca_autogen/mocs_compilation.i: chocachoca_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 chocachoca_autogen/mocs_compilation.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.i
 .PHONY : chocachoca_autogen/mocs_compilation.cpp.i
 
 chocachoca_autogen/mocs_compilation.s: chocachoca_autogen/mocs_compilation.cpp.s
@@ -264,7 +264,7 @@ chocachoca_autogen/mocs_compilation.s: chocachoca_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 chocachoca_autogen/mocs_compilation.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/chocachoca_autogen/mocs_compilation.cpp.s
 .PHONY : chocachoca_autogen/mocs_compilation.cpp.s
 
 commonbehaviorI.o: commonbehaviorI.cpp.o
@@ -273,7 +273,7 @@ commonbehaviorI.o: commonbehaviorI.cpp.o
 
 # target to build an object file
 commonbehaviorI.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.o
 .PHONY : commonbehaviorI.cpp.o
 
 commonbehaviorI.i: commonbehaviorI.cpp.i
@@ -282,7 +282,7 @@ commonbehaviorI.i: commonbehaviorI.cpp.i
 
 # target to preprocess a source file
 commonbehaviorI.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.i
 .PHONY : commonbehaviorI.cpp.i
 
 commonbehaviorI.s: commonbehaviorI.cpp.s
@@ -291,7 +291,7 @@ commonbehaviorI.s: commonbehaviorI.cpp.s
 
 # target to generate assembly for a file
 commonbehaviorI.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/commonbehaviorI.cpp.s
 .PHONY : commonbehaviorI.cpp.s
 
 genericmonitor.o: genericmonitor.cpp.o
@@ -300,7 +300,7 @@ genericmonitor.o: genericmonitor.cpp.o
 
 # target to build an object file
 genericmonitor.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.o
 .PHONY : genericmonitor.cpp.o
 
 genericmonitor.i: genericmonitor.cpp.i
@@ -309,7 +309,7 @@ genericmonitor.i: genericmonitor.cpp.i
 
 # target to preprocess a source file
 genericmonitor.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.i
 .PHONY : genericmonitor.cpp.i
 
 genericmonitor.s: genericmonitor.cpp.s
@@ -318,7 +318,7 @@ genericmonitor.s: genericmonitor.cpp.s
 
 # target to generate assembly for a file
 genericmonitor.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericmonitor.cpp.s
 .PHONY : genericmonitor.cpp.s
 
 genericworker.o: genericworker.cpp.o
@@ -327,7 +327,7 @@ genericworker.o: genericworker.cpp.o
 
 # target to build an object file
 genericworker.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.o
 .PHONY : genericworker.cpp.o
 
 genericworker.i: genericworker.cpp.i
@@ -336,7 +336,7 @@ genericworker.i: genericworker.cpp.i
 
 # target to preprocess a source file
 genericworker.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.i
 .PHONY : genericworker.cpp.i
 
 genericworker.s: genericworker.cpp.s
@@ -345,89 +345,89 @@ genericworker.s: genericworker.cpp.s
 
 # target to generate assembly for a file
 genericworker.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/genericworker.cpp.s
 .PHONY : genericworker.cpp.s
 
-home/carlos/robocomp/classes/qlog/qlog.o: home/carlos/robocomp/classes/qlog/qlog.cpp.o
+home/fernandoms/robocomp/classes/qlog/qlog.o: home/fernandoms/robocomp/classes/qlog/qlog.cpp.o
 
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.o
-
-# target to build an object file
-home/carlos/robocomp/classes/qlog/qlog.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.o
-
-home/carlos/robocomp/classes/qlog/qlog.i: home/carlos/robocomp/classes/qlog/qlog.cpp.i
-
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.i
-
-# target to preprocess a source file
-home/carlos/robocomp/classes/qlog/qlog.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.i
-
-home/carlos/robocomp/classes/qlog/qlog.s: home/carlos/robocomp/classes/qlog/qlog.cpp.s
-
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.s
-
-# target to generate assembly for a file
-home/carlos/robocomp/classes/qlog/qlog.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s
-.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.s
-
-home/carlos/robocomp/classes/rapplication/rapplication.o: home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.o
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.o
 
 # target to build an object file
-home/carlos/robocomp/classes/rapplication/rapplication.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
+home/fernandoms/robocomp/classes/qlog/qlog.cpp.o:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/qlog/qlog.cpp.o
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.cpp.o
 
-home/carlos/robocomp/classes/rapplication/rapplication.i: home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+home/fernandoms/robocomp/classes/qlog/qlog.i: home/fernandoms/robocomp/classes/qlog/qlog.cpp.i
 
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.i
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.i
 
 # target to preprocess a source file
-home/carlos/robocomp/classes/rapplication/rapplication.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+home/fernandoms/robocomp/classes/qlog/qlog.cpp.i:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/qlog/qlog.cpp.i
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.cpp.i
 
-home/carlos/robocomp/classes/rapplication/rapplication.s: home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+home/fernandoms/robocomp/classes/qlog/qlog.s: home/fernandoms/robocomp/classes/qlog/qlog.cpp.s
 
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.s
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.s
 
 # target to generate assembly for a file
-home/carlos/robocomp/classes/rapplication/rapplication.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
-.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+home/fernandoms/robocomp/classes/qlog/qlog.cpp.s:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/qlog/qlog.cpp.s
+.PHONY : home/fernandoms/robocomp/classes/qlog/qlog.cpp.s
 
-home/carlos/robocomp/classes/sigwatch/sigwatch.o: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+home/fernandoms/robocomp/classes/rapplication/rapplication.o: home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.o
 
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.o
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.o
 
 # target to build an object file
-home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.o:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.o
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.o
 
-home/carlos/robocomp/classes/sigwatch/sigwatch.i: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
+home/fernandoms/robocomp/classes/rapplication/rapplication.i: home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.i
 
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.i
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.i
 
 # target to preprocess a source file
-home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
+home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.i:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.i
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.i
 
-home/carlos/robocomp/classes/sigwatch/sigwatch.s: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
+home/fernandoms/robocomp/classes/rapplication/rapplication.s: home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.s
 
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.s
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.s
 
 # target to generate assembly for a file
-home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
-.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
+home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.s:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.s
+.PHONY : home/fernandoms/robocomp/classes/rapplication/rapplication.cpp.s
+
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.o: home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.o
+
+# target to build an object file
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.o:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.o
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.i: home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.i
+
+# target to preprocess a source file
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.i:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.i
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.s: home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.s
+
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.s
+
+# target to generate assembly for a file
+home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.s:
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.s
+.PHONY : home/fernandoms/robocomp/classes/sigwatch/sigwatch.cpp.s
 
 main.o: main.cpp.o
 
@@ -435,7 +435,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -444,7 +444,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -453,7 +453,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 specificmonitor.o: specificmonitor.cpp.o
@@ -462,7 +462,7 @@ specificmonitor.o: specificmonitor.cpp.o
 
 # target to build an object file
 specificmonitor.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.o
 .PHONY : specificmonitor.cpp.o
 
 specificmonitor.i: specificmonitor.cpp.i
@@ -471,7 +471,7 @@ specificmonitor.i: specificmonitor.cpp.i
 
 # target to preprocess a source file
 specificmonitor.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.i
 .PHONY : specificmonitor.cpp.i
 
 specificmonitor.s: specificmonitor.cpp.s
@@ -480,7 +480,7 @@ specificmonitor.s: specificmonitor.cpp.s
 
 # target to generate assembly for a file
 specificmonitor.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificmonitor.cpp.s
 .PHONY : specificmonitor.cpp.s
 
 specificworker.o: specificworker.cpp.o
@@ -489,7 +489,7 @@ specificworker.o: specificworker.cpp.o
 
 # target to build an object file
 specificworker.cpp.o:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.o
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.o
 .PHONY : specificworker.cpp.o
 
 specificworker.i: specificworker.cpp.i
@@ -498,7 +498,7 @@ specificworker.i: specificworker.cpp.i
 
 # target to preprocess a source file
 specificworker.cpp.i:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.i
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.i
 .PHONY : specificworker.cpp.i
 
 specificworker.s: specificworker.cpp.s
@@ -507,7 +507,7 @@ specificworker.s: specificworker.cpp.s
 
 # target to generate assembly for a file
 specificworker.cpp.s:
-	cd /home/carlos/robocomp/E_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.s
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(MAKE) -f src/CMakeFiles/chocachoca.dir/build.make src/CMakeFiles/chocachoca.dir/specificworker.cpp.s
 .PHONY : specificworker.cpp.s
 
 # Help Target
@@ -542,15 +542,15 @@ help:
 	@echo "... genericworker.o"
 	@echo "... genericworker.i"
 	@echo "... genericworker.s"
-	@echo "... home/carlos/robocomp/classes/qlog/qlog.o"
-	@echo "... home/carlos/robocomp/classes/qlog/qlog.i"
-	@echo "... home/carlos/robocomp/classes/qlog/qlog.s"
-	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.o"
-	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.i"
-	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.s"
-	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.o"
-	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.i"
-	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.s"
+	@echo "... home/fernandoms/robocomp/classes/qlog/qlog.o"
+	@echo "... home/fernandoms/robocomp/classes/qlog/qlog.i"
+	@echo "... home/fernandoms/robocomp/classes/qlog/qlog.s"
+	@echo "... home/fernandoms/robocomp/classes/rapplication/rapplication.o"
+	@echo "... home/fernandoms/robocomp/classes/rapplication/rapplication.i"
+	@echo "... home/fernandoms/robocomp/classes/rapplication/rapplication.s"
+	@echo "... home/fernandoms/robocomp/classes/sigwatch/sigwatch.o"
+	@echo "... home/fernandoms/robocomp/classes/sigwatch/sigwatch.i"
+	@echo "... home/fernandoms/robocomp/classes/sigwatch/sigwatch.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -571,6 +571,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/carlos/robocomp/E_6/supervisor && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/supervisor && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

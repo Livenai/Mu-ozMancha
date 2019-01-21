@@ -50,6 +50,8 @@ class SpecificWorker : public GenericWorker
                 void turn(const float speed);
                 bool atTarget();
                 void stop();
+                void newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState);
+	void newAprilTag(const tagsList &tags);
 
 	public slots:
 		void compute();
@@ -74,6 +76,7 @@ class SpecificWorker : public GenericWorker
 		std::list<QVec> path;
 		std::vector<QGraphicsEllipseItem *> greenPath;
                 bool enDestino = false;
+                bool camera= false;
                 string NombreDestino = "";
         enum class State{IDLE, GOTO, BUG, TURN};
         State state = State::IDLE;

@@ -1,5 +1,5 @@
 /*
- *    Copyright (C)2018 by YOUR NAME HERE
+ *    Copyright (C)2019 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -34,6 +34,9 @@
 #include <GenericBase.h>
 #include <RCISMousePicker.h>
 #include <GotoPoint.h>
+#include <AprilTags.h>
+#include <GenericBase.h>
+#include <JointMotor.h>
 
 #define CHECK_PERIOD 5000
 #define BASIC_PERIOD 100
@@ -42,11 +45,13 @@ typedef map <string,::IceProxy::Ice::Object*> MapPrx;
 
 using namespace std;
 
-using namespace RoboCompGotoPoint;
 using namespace RoboCompDifferentialRobot;
 using namespace RoboCompGenericBase;
+using namespace RoboCompGotoPoint;
+using namespace RoboCompJointMotor;
 using namespace RoboCompLaser;
 using namespace RoboCompRCISMousePicker;
+using namespace RoboCompAprilTags;
 
 
 
@@ -77,6 +82,8 @@ public:
 	virtual bool atTarget() = 0;
 	virtual void stop() = 0;
 	virtual void setPick(const Pick &myPick) = 0;
+	virtual void newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState) = 0;
+	virtual void newAprilTag(const tagsList &tags) = 0;
 
 protected:
 	QTimer timer;

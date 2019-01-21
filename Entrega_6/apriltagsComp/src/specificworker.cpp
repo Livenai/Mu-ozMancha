@@ -345,19 +345,19 @@ void SpecificWorker::print_detection(vector< ::AprilTags::TagDetection> detectio
 		Eigen::Vector3d translation;
 		Eigen::Matrix3d rotation;
 
+
 		///SIN PROBAR PERO DEBERIA IR. SI NO ENCUNETRA EL ID METE m_tagSize
 		const float ss = tagsSizeMap.value(detection.id, m_tagSize);
 
-		detection.getRelativeTranslationRotation(ss, m_fx, m_fy, m_px, m_py, translation, rotation);
+        detection.getRelativeTranslationRotation(ss, m_fx, m_fy, m_px, m_py, translation, rotation);
 		QVec T(3);
 		T(0) = -translation(1);//*0.65;
 		T(1) =  translation(2);//*0.65;
 		T(2) =  translation(0);//*0.65;
-
+		
 		Eigen::Matrix3d F;
 		F << 1, 0,  0,	0,  -1,  0,	0,  0,  1;
 		Eigen::Matrix3d fixed_rot = F*rotation;
-
 		double rx, ry, rz;
 		rotationFromMatrix(fixed_rot, rx, ry, rz);
 

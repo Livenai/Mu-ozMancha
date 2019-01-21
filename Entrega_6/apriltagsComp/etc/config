@@ -13,7 +13,7 @@ CameraSimpleProxy = camerasimple:tcp -h localhost -p 10097
 
 TopicManager.Proxy=IceStorm/TopicManager:default -p 9999 -h localhost
 
-InnerModelPath=/home/robocomp/robocomp/files/innermodel/simpleworld.xml
+InnerModelPath=/home/robocomp/robocomp/files/innermodel/informatica-tercio.xml
 CameraName=rgbd
 
 FlipImage = False

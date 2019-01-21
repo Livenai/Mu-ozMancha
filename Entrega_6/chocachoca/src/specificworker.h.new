@@ -1,5 +1,5 @@
 /*
- *    Copyright (C)2018 by YOUR NAME HERE
+ *    Copyright (C)2019 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -43,6 +43,8 @@ public:
 	bool atTarget();
 	void stop();
 	void setPick(const Pick &myPick);
+	void newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState);
+	void newAprilTag(const tagsList &tags);
 
 public slots:
 	void compute();

@@ -1,5 +1,5 @@
 /*
- *    Copyright (C) 2018 by YOUR NAME HERE
+ *    Copyright (C) 2019 by YOUR NAME HERE
  *
  *    This file is part of RoboComp
  *
@@ -83,6 +83,7 @@
 
 #include <gotopointI.h>
 #include <rcismousepickerI.h>
+#include <apriltagsI.h>
 
 #include <Laser.h>
 #include <GenericBase.h>
@@ -90,6 +91,9 @@
 #include <GenericBase.h>
 #include <RCISMousePicker.h>
 #include <GotoPoint.h>
+#include <AprilTags.h>
+#include <GenericBase.h>
+#include <JointMotor.h>
 
 
 // User includes here
@@ -239,6 +243,34 @@ int ::chocachoca::run(int argc, char* argv[])
 
 
 		// Server adapter creation and publication
+		if (not GenericMonitor::configGetString(communicator(), prefix, "AprilTagsTopic.Endpoints", tmp, ""))
+		{
+			cout << "[" << PROGRAM_NAME << "]: Can't read configuration for proxy AprilTagsProxy";
+		}
+		Ice::ObjectAdapterPtr AprilTags_adapter = communicator()->createObjectAdapterWithEndpoints("apriltags", tmp);
+		AprilTagsPtr apriltagsI_ = new AprilTagsI(worker);
+		Ice::ObjectPrx apriltags = AprilTags_adapter->addWithUUID(apriltagsI_)->ice_oneway();
+		IceStorm::TopicPrx apriltags_topic;
+		if(!apriltags_topic){
+		try {
+			apriltags_topic = topicManager->create("AprilTags");
+		}
+		catch (const IceStorm::TopicExists&) {
+		//Another client created the topic
+		try{
+			apriltags_topic = topicManager->retrieve("AprilTags");
+		}
+		catch(const IceStorm::NoSuchTopic&)
+		{
+			//Error. Topic does not exist
+			}
+		}
+		IceStorm::QoS qos;
+		apriltags_topic->subscribeAndGetPublisher(qos, apriltags);
+		}
+		AprilTags_adapter->activate();
+
+		// Server adapter creation and publication
 		if (not GenericMonitor::configGetString(communicator(), prefix, "RCISMousePickerTopic.Endpoints", tmp, ""))
 		{
 			cout << "[" << PROGRAM_NAME << "]: Can't read configuration for proxy RCISMousePickerProxy";
@@ -280,6 +312,8 @@ int ::chocachoca::run(int argc, char* argv[])
 
 		std::cout << "Unsubscribing topic: rcismousepicker " <<std::endl;
 		rcismousepicker_topic->unsubscribe( rcismousepicker );
+		std::cout << "Unsubscribing topic: apriltags " <<std::endl;
+		apriltags_topic->unsubscribe( apriltags );
 
 		status = EXIT_SUCCESS;
 	}
@@ -290,17 +324,12 @@ int ::chocachoca::run(int argc, char* argv[])
 		cout << "[" << PROGRAM_NAME << "]: Exception raised on main thread: " << endl;
 		cout << ex;
 
-	}
-	#ifdef USE_QTGUI
+#ifdef USE_QTGUI
 		a.quit();
-	#endif
+#endif
+		monitor->exit(0);
+}
 
-
-	status = EXIT_SUCCESS;
-	monitor->terminate();
-	monitor->wait();
-	delete worker;
-	delete monitor;
 	return status;
 }
 

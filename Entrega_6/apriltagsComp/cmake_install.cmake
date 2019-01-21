@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlos/robocomp/E_6/apriltagsComp
+# Install script for directory: /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,12 +46,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/robocomp/etc-default" TYPE FILE RENAME "AprilTagsComp.conf" FILES "/home/carlos/robocomp/E_6/apriltagsComp/etc/config")
+file(INSTALL DESTINATION "/opt/robocomp/etc-default" TYPE FILE RENAME "AprilTagsComp.conf" FILES "/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/etc/config")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/carlos/robocomp/E_6/apriltagsComp/src/cmake_install.cmake")
+  include("/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/cmake_install.cmake")
 
 endif()
 
@@ -63,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/carlos/robocomp/E_6/apriltagsComp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
