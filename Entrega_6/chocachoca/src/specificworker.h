@@ -78,6 +78,7 @@ class SpecificWorker : public GenericWorker
                 bool enDestino = false;
                 bool camera= false;
                 string NombreDestino = "";
+		bool   marcaLista = false;
         enum class State{IDLE, GOTO, BUG, TURN};
         State state = State::IDLE;
 		

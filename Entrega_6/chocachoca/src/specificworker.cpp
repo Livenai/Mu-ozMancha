@@ -366,7 +366,10 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
 
         void SpecificWorker::turn(const float speed)
         {
-            //no se usa
+            //mientras marcaLista este a false debe girar 
+	    while(marcaLista == false){
+		differentialrobot_proxy->setSpeedBase(0,1);
+	    }
         }
 
         bool SpecificWorker::atTarget()
@@ -384,29 +387,34 @@ void SpecificWorker::updateOccupiedCells(const RoboCompGenericBase::TBaseState &
             enDestino = false;
         }
 
-void SpecificWorker::newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState)
-{
-//subscribesToCODE
+        /////////////////////////////    AprilTags    /////////////////////////////
 
-}
+	void SpecificWorker::newAprilTagAndPose(const tagsList &tags, const RoboCompGenericBase::TBaseState &bState, const RoboCompJointMotor::MotorStateMap &hState)
+	{
+	//subscribesToCODE
 
-void SpecificWorker::newAprilTag(const tagsList &tags)
-{
-//subscribesToCODE
-    cout << "El tags es ::: "<< tags[0].id << " x "<< tags[0].tx << " y "<< tags[0].ry << " z "<< tags[0].rz << " cameraid "<< tags[0].cameraId<< endl;
-   if(camera==false){
-    target[0] = tags[0].tx;
-    target[2] = tags[2].tz;
-    target[1] = 0;
-   // qDebug() << __FILE__ << __FUNCTION__ << myPick.x << myPick.z ;
-    targetReady = true;
-    camera=true;
-    planReady = false;
-    for(auto gp: greenPath)
-        delete gp;
-    greenPath.clear();
-    }
-}
+	}
+
+	void SpecificWorker::newAprilTag(const tagsList &tags)
+	{
+	//subscribesToCODE
+	    cout << "El tags es ::: "<< tags[0].id << " x "<< tags[0].tx << " y "<< tags[0].ry << " z "<< tags[0].rz << " cameraid "<< tags[0].cameraId<< endl;
+	    marcaLista = true;
+	/*
+	   if(camera==false){
+	    target[0] = tags[0].tx;
+	    target[2] = tags[2].tz;
+	    target[1] = 0;
+	   // qDebug() << __FILE__ << __FUNCTION__ << myPick.x << myPick.z ;
+	    targetReady = true;
+	    camera=true;
+	    planReady = false;
+	    for(auto gp: greenPath)
+		delete gp;
+	    greenPath.clear();
+	    }
+	*/
+	}
 
 
 	

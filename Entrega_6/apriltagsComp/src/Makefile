@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
+CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/apriltagsComp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp
+CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/apriltagsComp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/src/CMakeFiles/progress.marks
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp/CMakeFiles 0
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles /home/carlos/robocomp/E_6/apriltagsComp/src/CMakeFiles/progress.marks
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/apriltagsComp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/AprilTagsComp.dir/rule:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/AprilTagsComp.dir/rule
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/AprilTagsComp.dir/rule
 .PHONY : src/CMakeFiles/AprilTagsComp.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ AprilTagsComp: src/CMakeFiles/AprilTagsComp.dir/rule
 
 # fast build rule for target.
 AprilTagsComp/fast:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/build
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/build
 .PHONY : AprilTagsComp/fast
 
 # Convenience name for target.
 src/CMakeFiles/AprilTagsComp_autogen.dir/rule:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/AprilTagsComp_autogen.dir/rule
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/AprilTagsComp_autogen.dir/rule
 .PHONY : src/CMakeFiles/AprilTagsComp_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ AprilTagsComp_autogen: src/CMakeFiles/AprilTagsComp_autogen.dir/rule
 
 # fast build rule for target.
 AprilTagsComp_autogen/fast:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp_autogen.dir/build.make src/CMakeFiles/AprilTagsComp_autogen.dir/build
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp_autogen.dir/build.make src/CMakeFiles/AprilTagsComp_autogen.dir/build
 .PHONY : AprilTagsComp_autogen/fast
 
 AprilTags.o: AprilTags.cpp.o
@@ -192,7 +192,7 @@ AprilTags.o: AprilTags.cpp.o
 
 # target to build an object file
 AprilTags.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.o
 .PHONY : AprilTags.cpp.o
 
 AprilTags.i: AprilTags.cpp.i
@@ -201,7 +201,7 @@ AprilTags.i: AprilTags.cpp.i
 
 # target to preprocess a source file
 AprilTags.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.i
 .PHONY : AprilTags.cpp.i
 
 AprilTags.s: AprilTags.cpp.s
@@ -210,7 +210,7 @@ AprilTags.s: AprilTags.cpp.s
 
 # target to generate assembly for a file
 AprilTags.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTags.cpp.s
 .PHONY : AprilTags.cpp.s
 
 AprilTagsComp_autogen/mocs_compilation.o: AprilTagsComp_autogen/mocs_compilation.cpp.o
@@ -219,7 +219,7 @@ AprilTagsComp_autogen/mocs_compilation.o: AprilTagsComp_autogen/mocs_compilation
 
 # target to build an object file
 AprilTagsComp_autogen/mocs_compilation.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.o
 .PHONY : AprilTagsComp_autogen/mocs_compilation.cpp.o
 
 AprilTagsComp_autogen/mocs_compilation.i: AprilTagsComp_autogen/mocs_compilation.cpp.i
@@ -228,7 +228,7 @@ AprilTagsComp_autogen/mocs_compilation.i: AprilTagsComp_autogen/mocs_compilation
 
 # target to preprocess a source file
 AprilTagsComp_autogen/mocs_compilation.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.i
 .PHONY : AprilTagsComp_autogen/mocs_compilation.cpp.i
 
 AprilTagsComp_autogen/mocs_compilation.s: AprilTagsComp_autogen/mocs_compilation.cpp.s
@@ -237,7 +237,7 @@ AprilTagsComp_autogen/mocs_compilation.s: AprilTagsComp_autogen/mocs_compilation
 
 # target to generate assembly for a file
 AprilTagsComp_autogen/mocs_compilation.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/AprilTagsComp_autogen/mocs_compilation.cpp.s
 .PHONY : AprilTagsComp_autogen/mocs_compilation.cpp.s
 
 Camera.o: Camera.cpp.o
@@ -246,7 +246,7 @@ Camera.o: Camera.cpp.o
 
 # target to build an object file
 Camera.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.o
 .PHONY : Camera.cpp.o
 
 Camera.i: Camera.cpp.i
@@ -255,7 +255,7 @@ Camera.i: Camera.cpp.i
 
 # target to preprocess a source file
 Camera.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.i
 .PHONY : Camera.cpp.i
 
 Camera.s: Camera.cpp.s
@@ -264,7 +264,7 @@ Camera.s: Camera.cpp.s
 
 # target to generate assembly for a file
 Camera.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
 CameraSimple.o: CameraSimple.cpp.o
@@ -273,7 +273,7 @@ CameraSimple.o: CameraSimple.cpp.o
 
 # target to build an object file
 CameraSimple.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.o
 .PHONY : CameraSimple.cpp.o
 
 CameraSimple.i: CameraSimple.cpp.i
@@ -282,7 +282,7 @@ CameraSimple.i: CameraSimple.cpp.i
 
 # target to preprocess a source file
 CameraSimple.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.i
 .PHONY : CameraSimple.cpp.i
 
 CameraSimple.s: CameraSimple.cpp.s
@@ -291,7 +291,7 @@ CameraSimple.s: CameraSimple.cpp.s
 
 # target to generate assembly for a file
 CameraSimple.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CameraSimple.cpp.s
 .PHONY : CameraSimple.cpp.s
 
 CommonBehavior.o: CommonBehavior.cpp.o
@@ -300,7 +300,7 @@ CommonBehavior.o: CommonBehavior.cpp.o
 
 # target to build an object file
 CommonBehavior.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.o
 .PHONY : CommonBehavior.cpp.o
 
 CommonBehavior.i: CommonBehavior.cpp.i
@@ -309,7 +309,7 @@ CommonBehavior.i: CommonBehavior.cpp.i
 
 # target to preprocess a source file
 CommonBehavior.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.i
 .PHONY : CommonBehavior.cpp.i
 
 CommonBehavior.s: CommonBehavior.cpp.s
@@ -318,7 +318,7 @@ CommonBehavior.s: CommonBehavior.cpp.s
 
 # target to generate assembly for a file
 CommonBehavior.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonBehavior.cpp.s
 .PHONY : CommonBehavior.cpp.s
 
 CommonHead.o: CommonHead.cpp.o
@@ -327,7 +327,7 @@ CommonHead.o: CommonHead.cpp.o
 
 # target to build an object file
 CommonHead.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.o
 .PHONY : CommonHead.cpp.o
 
 CommonHead.i: CommonHead.cpp.i
@@ -336,7 +336,7 @@ CommonHead.i: CommonHead.cpp.i
 
 # target to preprocess a source file
 CommonHead.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.i
 .PHONY : CommonHead.cpp.i
 
 CommonHead.s: CommonHead.cpp.s
@@ -345,7 +345,7 @@ CommonHead.s: CommonHead.cpp.s
 
 # target to generate assembly for a file
 CommonHead.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/CommonHead.cpp.s
 .PHONY : CommonHead.cpp.s
 
 Edge.o: Edge.cc.o
@@ -354,7 +354,7 @@ Edge.o: Edge.cc.o
 
 # target to build an object file
 Edge.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.o
 .PHONY : Edge.cc.o
 
 Edge.i: Edge.cc.i
@@ -363,7 +363,7 @@ Edge.i: Edge.cc.i
 
 # target to preprocess a source file
 Edge.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.i
 .PHONY : Edge.cc.i
 
 Edge.s: Edge.cc.s
@@ -372,7 +372,7 @@ Edge.s: Edge.cc.s
 
 # target to generate assembly for a file
 Edge.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Edge.cc.s
 .PHONY : Edge.cc.s
 
 FloatImage.o: FloatImage.cc.o
@@ -381,7 +381,7 @@ FloatImage.o: FloatImage.cc.o
 
 # target to build an object file
 FloatImage.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.o
 .PHONY : FloatImage.cc.o
 
 FloatImage.i: FloatImage.cc.i
@@ -390,7 +390,7 @@ FloatImage.i: FloatImage.cc.i
 
 # target to preprocess a source file
 FloatImage.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.i
 .PHONY : FloatImage.cc.i
 
 FloatImage.s: FloatImage.cc.s
@@ -399,7 +399,7 @@ FloatImage.s: FloatImage.cc.s
 
 # target to generate assembly for a file
 FloatImage.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/FloatImage.cc.s
 .PHONY : FloatImage.cc.s
 
 GLine2D.o: GLine2D.cc.o
@@ -408,7 +408,7 @@ GLine2D.o: GLine2D.cc.o
 
 # target to build an object file
 GLine2D.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.o
 .PHONY : GLine2D.cc.o
 
 GLine2D.i: GLine2D.cc.i
@@ -417,7 +417,7 @@ GLine2D.i: GLine2D.cc.i
 
 # target to preprocess a source file
 GLine2D.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.i
 .PHONY : GLine2D.cc.i
 
 GLine2D.s: GLine2D.cc.s
@@ -426,7 +426,7 @@ GLine2D.s: GLine2D.cc.s
 
 # target to generate assembly for a file
 GLine2D.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLine2D.cc.s
 .PHONY : GLine2D.cc.s
 
 GLineSegment2D.o: GLineSegment2D.cc.o
@@ -435,7 +435,7 @@ GLineSegment2D.o: GLineSegment2D.cc.o
 
 # target to build an object file
 GLineSegment2D.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.o
 .PHONY : GLineSegment2D.cc.o
 
 GLineSegment2D.i: GLineSegment2D.cc.i
@@ -444,7 +444,7 @@ GLineSegment2D.i: GLineSegment2D.cc.i
 
 # target to preprocess a source file
 GLineSegment2D.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.i
 .PHONY : GLineSegment2D.cc.i
 
 GLineSegment2D.s: GLineSegment2D.cc.s
@@ -453,7 +453,7 @@ GLineSegment2D.s: GLineSegment2D.cc.s
 
 # target to generate assembly for a file
 GLineSegment2D.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GLineSegment2D.cc.s
 .PHONY : GLineSegment2D.cc.s
 
 Gaussian.o: Gaussian.cc.o
@@ -462,7 +462,7 @@ Gaussian.o: Gaussian.cc.o
 
 # target to build an object file
 Gaussian.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.o
 .PHONY : Gaussian.cc.o
 
 Gaussian.i: Gaussian.cc.i
@@ -471,7 +471,7 @@ Gaussian.i: Gaussian.cc.i
 
 # target to preprocess a source file
 Gaussian.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.i
 .PHONY : Gaussian.cc.i
 
 Gaussian.s: Gaussian.cc.s
@@ -480,7 +480,7 @@ Gaussian.s: Gaussian.cc.s
 
 # target to generate assembly for a file
 Gaussian.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Gaussian.cc.s
 .PHONY : Gaussian.cc.s
 
 GenericBase.o: GenericBase.cpp.o
@@ -489,7 +489,7 @@ GenericBase.o: GenericBase.cpp.o
 
 # target to build an object file
 GenericBase.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.o
 .PHONY : GenericBase.cpp.o
 
 GenericBase.i: GenericBase.cpp.i
@@ -498,7 +498,7 @@ GenericBase.i: GenericBase.cpp.i
 
 # target to preprocess a source file
 GenericBase.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.i
 .PHONY : GenericBase.cpp.i
 
 GenericBase.s: GenericBase.cpp.s
@@ -507,7 +507,7 @@ GenericBase.s: GenericBase.cpp.s
 
 # target to generate assembly for a file
 GenericBase.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GenericBase.cpp.s
 .PHONY : GenericBase.cpp.s
 
 GetAprilTags.o: GetAprilTags.cpp.o
@@ -516,7 +516,7 @@ GetAprilTags.o: GetAprilTags.cpp.o
 
 # target to build an object file
 GetAprilTags.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.o
 .PHONY : GetAprilTags.cpp.o
 
 GetAprilTags.i: GetAprilTags.cpp.i
@@ -525,7 +525,7 @@ GetAprilTags.i: GetAprilTags.cpp.i
 
 # target to preprocess a source file
 GetAprilTags.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.i
 .PHONY : GetAprilTags.cpp.i
 
 GetAprilTags.s: GetAprilTags.cpp.s
@@ -534,7 +534,7 @@ GetAprilTags.s: GetAprilTags.cpp.s
 
 # target to generate assembly for a file
 GetAprilTags.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GetAprilTags.cpp.s
 .PHONY : GetAprilTags.cpp.s
 
 GrayModel.o: GrayModel.cc.o
@@ -543,7 +543,7 @@ GrayModel.o: GrayModel.cc.o
 
 # target to build an object file
 GrayModel.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.o
 .PHONY : GrayModel.cc.o
 
 GrayModel.i: GrayModel.cc.i
@@ -552,7 +552,7 @@ GrayModel.i: GrayModel.cc.i
 
 # target to preprocess a source file
 GrayModel.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.i
 .PHONY : GrayModel.cc.i
 
 GrayModel.s: GrayModel.cc.s
@@ -561,7 +561,7 @@ GrayModel.s: GrayModel.cc.s
 
 # target to generate assembly for a file
 GrayModel.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/GrayModel.cc.s
 .PHONY : GrayModel.cc.s
 
 Homography33.o: Homography33.cc.o
@@ -570,7 +570,7 @@ Homography33.o: Homography33.cc.o
 
 # target to build an object file
 Homography33.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.o
 .PHONY : Homography33.cc.o
 
 Homography33.i: Homography33.cc.i
@@ -579,7 +579,7 @@ Homography33.i: Homography33.cc.i
 
 # target to preprocess a source file
 Homography33.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.i
 .PHONY : Homography33.cc.i
 
 Homography33.s: Homography33.cc.s
@@ -588,7 +588,7 @@ Homography33.s: Homography33.cc.s
 
 # target to generate assembly for a file
 Homography33.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Homography33.cc.s
 .PHONY : Homography33.cc.s
 
 JointMotor.o: JointMotor.cpp.o
@@ -597,7 +597,7 @@ JointMotor.o: JointMotor.cpp.o
 
 # target to build an object file
 JointMotor.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.o
 .PHONY : JointMotor.cpp.o
 
 JointMotor.i: JointMotor.cpp.i
@@ -606,7 +606,7 @@ JointMotor.i: JointMotor.cpp.i
 
 # target to preprocess a source file
 JointMotor.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.i
 .PHONY : JointMotor.cpp.i
 
 JointMotor.s: JointMotor.cpp.s
@@ -615,7 +615,7 @@ JointMotor.s: JointMotor.cpp.s
 
 # target to generate assembly for a file
 JointMotor.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/JointMotor.cpp.s
 .PHONY : JointMotor.cpp.s
 
 MathUtil.o: MathUtil.cc.o
@@ -624,7 +624,7 @@ MathUtil.o: MathUtil.cc.o
 
 # target to build an object file
 MathUtil.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.o
 .PHONY : MathUtil.cc.o
 
 MathUtil.i: MathUtil.cc.i
@@ -633,7 +633,7 @@ MathUtil.i: MathUtil.cc.i
 
 # target to preprocess a source file
 MathUtil.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.i
 .PHONY : MathUtil.cc.i
 
 MathUtil.s: MathUtil.cc.s
@@ -642,7 +642,7 @@ MathUtil.s: MathUtil.cc.s
 
 # target to generate assembly for a file
 MathUtil.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/MathUtil.cc.s
 .PHONY : MathUtil.cc.s
 
 Quad.o: Quad.cc.o
@@ -651,7 +651,7 @@ Quad.o: Quad.cc.o
 
 # target to build an object file
 Quad.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.o
 .PHONY : Quad.cc.o
 
 Quad.i: Quad.cc.i
@@ -660,7 +660,7 @@ Quad.i: Quad.cc.i
 
 # target to preprocess a source file
 Quad.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.i
 .PHONY : Quad.cc.i
 
 Quad.s: Quad.cc.s
@@ -669,7 +669,7 @@ Quad.s: Quad.cc.s
 
 # target to generate assembly for a file
 Quad.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Quad.cc.s
 .PHONY : Quad.cc.s
 
 RGBD.o: RGBD.cpp.o
@@ -678,7 +678,7 @@ RGBD.o: RGBD.cpp.o
 
 # target to build an object file
 RGBD.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.o
 .PHONY : RGBD.cpp.o
 
 RGBD.i: RGBD.cpp.i
@@ -687,7 +687,7 @@ RGBD.i: RGBD.cpp.i
 
 # target to preprocess a source file
 RGBD.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.i
 .PHONY : RGBD.cpp.i
 
 RGBD.s: RGBD.cpp.s
@@ -696,7 +696,7 @@ RGBD.s: RGBD.cpp.s
 
 # target to generate assembly for a file
 RGBD.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBD.cpp.s
 .PHONY : RGBD.cpp.s
 
 RGBDBus.o: RGBDBus.cpp.o
@@ -705,7 +705,7 @@ RGBDBus.o: RGBDBus.cpp.o
 
 # target to build an object file
 RGBDBus.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.o
 .PHONY : RGBDBus.cpp.o
 
 RGBDBus.i: RGBDBus.cpp.i
@@ -714,7 +714,7 @@ RGBDBus.i: RGBDBus.cpp.i
 
 # target to preprocess a source file
 RGBDBus.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.i
 .PHONY : RGBDBus.cpp.i
 
 RGBDBus.s: RGBDBus.cpp.s
@@ -723,7 +723,7 @@ RGBDBus.s: RGBDBus.cpp.s
 
 # target to generate assembly for a file
 RGBDBus.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/RGBDBus.cpp.s
 .PHONY : RGBDBus.cpp.s
 
 Segment.o: Segment.cc.o
@@ -732,7 +732,7 @@ Segment.o: Segment.cc.o
 
 # target to build an object file
 Segment.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.o
 .PHONY : Segment.cc.o
 
 Segment.i: Segment.cc.i
@@ -741,7 +741,7 @@ Segment.i: Segment.cc.i
 
 # target to preprocess a source file
 Segment.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.i
 .PHONY : Segment.cc.i
 
 Segment.s: Segment.cc.s
@@ -750,7 +750,7 @@ Segment.s: Segment.cc.s
 
 # target to generate assembly for a file
 Segment.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/Segment.cc.s
 .PHONY : Segment.cc.s
 
 TagDetection.o: TagDetection.cc.o
@@ -759,7 +759,7 @@ TagDetection.o: TagDetection.cc.o
 
 # target to build an object file
 TagDetection.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.o
 .PHONY : TagDetection.cc.o
 
 TagDetection.i: TagDetection.cc.i
@@ -768,7 +768,7 @@ TagDetection.i: TagDetection.cc.i
 
 # target to preprocess a source file
 TagDetection.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.i
 .PHONY : TagDetection.cc.i
 
 TagDetection.s: TagDetection.cc.s
@@ -777,7 +777,7 @@ TagDetection.s: TagDetection.cc.s
 
 # target to generate assembly for a file
 TagDetection.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetection.cc.s
 .PHONY : TagDetection.cc.s
 
 TagDetector.o: TagDetector.cc.o
@@ -786,7 +786,7 @@ TagDetector.o: TagDetector.cc.o
 
 # target to build an object file
 TagDetector.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.o
 .PHONY : TagDetector.cc.o
 
 TagDetector.i: TagDetector.cc.i
@@ -795,7 +795,7 @@ TagDetector.i: TagDetector.cc.i
 
 # target to preprocess a source file
 TagDetector.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.i
 .PHONY : TagDetector.cc.i
 
 TagDetector.s: TagDetector.cc.s
@@ -804,7 +804,7 @@ TagDetector.s: TagDetector.cc.s
 
 # target to generate assembly for a file
 TagDetector.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagDetector.cc.s
 .PHONY : TagDetector.cc.s
 
 TagFamily.o: TagFamily.cc.o
@@ -813,7 +813,7 @@ TagFamily.o: TagFamily.cc.o
 
 # target to build an object file
 TagFamily.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.o
 .PHONY : TagFamily.cc.o
 
 TagFamily.i: TagFamily.cc.i
@@ -822,7 +822,7 @@ TagFamily.i: TagFamily.cc.i
 
 # target to preprocess a source file
 TagFamily.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.i
 .PHONY : TagFamily.cc.i
 
 TagFamily.s: TagFamily.cc.s
@@ -831,7 +831,7 @@ TagFamily.s: TagFamily.cc.s
 
 # target to generate assembly for a file
 TagFamily.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/TagFamily.cc.s
 .PHONY : TagFamily.cc.s
 
 UnionFindSimple.o: UnionFindSimple.cc.o
@@ -840,7 +840,7 @@ UnionFindSimple.o: UnionFindSimple.cc.o
 
 # target to build an object file
 UnionFindSimple.cc.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.o
 .PHONY : UnionFindSimple.cc.o
 
 UnionFindSimple.i: UnionFindSimple.cc.i
@@ -849,7 +849,7 @@ UnionFindSimple.i: UnionFindSimple.cc.i
 
 # target to preprocess a source file
 UnionFindSimple.cc.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.i
 .PHONY : UnionFindSimple.cc.i
 
 UnionFindSimple.s: UnionFindSimple.cc.s
@@ -858,7 +858,7 @@ UnionFindSimple.s: UnionFindSimple.cc.s
 
 # target to generate assembly for a file
 UnionFindSimple.cc.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/UnionFindSimple.cc.s
 .PHONY : UnionFindSimple.cc.s
 
 commonbehaviorI.o: commonbehaviorI.cpp.o
@@ -867,7 +867,7 @@ commonbehaviorI.o: commonbehaviorI.cpp.o
 
 # target to build an object file
 commonbehaviorI.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.o
 .PHONY : commonbehaviorI.cpp.o
 
 commonbehaviorI.i: commonbehaviorI.cpp.i
@@ -876,7 +876,7 @@ commonbehaviorI.i: commonbehaviorI.cpp.i
 
 # target to preprocess a source file
 commonbehaviorI.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.i
 .PHONY : commonbehaviorI.cpp.i
 
 commonbehaviorI.s: commonbehaviorI.cpp.s
@@ -885,7 +885,7 @@ commonbehaviorI.s: commonbehaviorI.cpp.s
 
 # target to generate assembly for a file
 commonbehaviorI.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/commonbehaviorI.cpp.s
 .PHONY : commonbehaviorI.cpp.s
 
 genericmonitor.o: genericmonitor.cpp.o
@@ -894,7 +894,7 @@ genericmonitor.o: genericmonitor.cpp.o
 
 # target to build an object file
 genericmonitor.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.o
 .PHONY : genericmonitor.cpp.o
 
 genericmonitor.i: genericmonitor.cpp.i
@@ -903,7 +903,7 @@ genericmonitor.i: genericmonitor.cpp.i
 
 # target to preprocess a source file
 genericmonitor.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.i
 .PHONY : genericmonitor.cpp.i
 
 genericmonitor.s: genericmonitor.cpp.s
@@ -912,7 +912,7 @@ genericmonitor.s: genericmonitor.cpp.s
 
 # target to generate assembly for a file
 genericmonitor.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericmonitor.cpp.s
 .PHONY : genericmonitor.cpp.s
 
 genericworker.o: genericworker.cpp.o
@@ -921,7 +921,7 @@ genericworker.o: genericworker.cpp.o
 
 # target to build an object file
 genericworker.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.o
 .PHONY : genericworker.cpp.o
 
 genericworker.i: genericworker.cpp.i
@@ -930,7 +930,7 @@ genericworker.i: genericworker.cpp.i
 
 # target to preprocess a source file
 genericworker.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.i
 .PHONY : genericworker.cpp.i
 
 genericworker.s: genericworker.cpp.s
@@ -939,7 +939,7 @@ genericworker.s: genericworker.cpp.s
 
 # target to generate assembly for a file
 genericworker.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/genericworker.cpp.s
 .PHONY : genericworker.cpp.s
 
 getapriltagsI.o: getapriltagsI.cpp.o
@@ -948,7 +948,7 @@ getapriltagsI.o: getapriltagsI.cpp.o
 
 # target to build an object file
 getapriltagsI.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.o
 .PHONY : getapriltagsI.cpp.o
 
 getapriltagsI.i: getapriltagsI.cpp.i
@@ -957,7 +957,7 @@ getapriltagsI.i: getapriltagsI.cpp.i
 
 # target to preprocess a source file
 getapriltagsI.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.i
 .PHONY : getapriltagsI.cpp.i
 
 getapriltagsI.s: getapriltagsI.cpp.s
@@ -966,8 +966,89 @@ getapriltagsI.s: getapriltagsI.cpp.s
 
 # target to generate assembly for a file
 getapriltagsI.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/getapriltagsI.cpp.s
 .PHONY : getapriltagsI.cpp.s
+
+home/carlos/robocomp/classes/qlog/qlog.o: home/carlos/robocomp/classes/qlog/qlog.cpp.o
+
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.o
+
+# target to build an object file
+home/carlos/robocomp/classes/qlog/qlog.cpp.o:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.o
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.o
+
+home/carlos/robocomp/classes/qlog/qlog.i: home/carlos/robocomp/classes/qlog/qlog.cpp.i
+
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.i
+
+# target to preprocess a source file
+home/carlos/robocomp/classes/qlog/qlog.cpp.i:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.i
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.i
+
+home/carlos/robocomp/classes/qlog/qlog.s: home/carlos/robocomp/classes/qlog/qlog.cpp.s
+
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.s
+
+# target to generate assembly for a file
+home/carlos/robocomp/classes/qlog/qlog.cpp.s:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/qlog/qlog.cpp.s
+.PHONY : home/carlos/robocomp/classes/qlog/qlog.cpp.s
+
+home/carlos/robocomp/classes/rapplication/rapplication.o: home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
+
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.o
+
+# target to build an object file
+home/carlos/robocomp/classes/rapplication/rapplication.cpp.o:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.o
+
+home/carlos/robocomp/classes/rapplication/rapplication.i: home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.i
+
+# target to preprocess a source file
+home/carlos/robocomp/classes/rapplication/rapplication.cpp.i:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.i
+
+home/carlos/robocomp/classes/rapplication/rapplication.s: home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.s
+
+# target to generate assembly for a file
+home/carlos/robocomp/classes/rapplication/rapplication.cpp.s:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+.PHONY : home/carlos/robocomp/classes/rapplication/rapplication.cpp.s
+
+home/carlos/robocomp/classes/sigwatch/sigwatch.o: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.o
+
+# target to build an object file
+home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.o
+
+home/carlos/robocomp/classes/sigwatch/sigwatch.i: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.i
+
+# target to preprocess a source file
+home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.i
+
+home/carlos/robocomp/classes/sigwatch/sigwatch.s: home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
+
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.s
+
+# target to generate assembly for a file
+home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s:
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
+.PHONY : home/carlos/robocomp/classes/sigwatch/sigwatch.cpp.s
 
 main.o: main.cpp.o
 
@@ -975,7 +1056,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -984,7 +1065,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -993,89 +1074,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-opt/robocomp/classes/qlog/qlog.o: opt/robocomp/classes/qlog/qlog.cpp.o
-
-.PHONY : opt/robocomp/classes/qlog/qlog.o
-
-# target to build an object file
-opt/robocomp/classes/qlog/qlog.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.o
-.PHONY : opt/robocomp/classes/qlog/qlog.cpp.o
-
-opt/robocomp/classes/qlog/qlog.i: opt/robocomp/classes/qlog/qlog.cpp.i
-
-.PHONY : opt/robocomp/classes/qlog/qlog.i
-
-# target to preprocess a source file
-opt/robocomp/classes/qlog/qlog.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.i
-.PHONY : opt/robocomp/classes/qlog/qlog.cpp.i
-
-opt/robocomp/classes/qlog/qlog.s: opt/robocomp/classes/qlog/qlog.cpp.s
-
-.PHONY : opt/robocomp/classes/qlog/qlog.s
-
-# target to generate assembly for a file
-opt/robocomp/classes/qlog/qlog.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/qlog/qlog.cpp.s
-.PHONY : opt/robocomp/classes/qlog/qlog.cpp.s
-
-opt/robocomp/classes/rapplication/rapplication.o: opt/robocomp/classes/rapplication/rapplication.cpp.o
-
-.PHONY : opt/robocomp/classes/rapplication/rapplication.o
-
-# target to build an object file
-opt/robocomp/classes/rapplication/rapplication.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o
-.PHONY : opt/robocomp/classes/rapplication/rapplication.cpp.o
-
-opt/robocomp/classes/rapplication/rapplication.i: opt/robocomp/classes/rapplication/rapplication.cpp.i
-
-.PHONY : opt/robocomp/classes/rapplication/rapplication.i
-
-# target to preprocess a source file
-opt/robocomp/classes/rapplication/rapplication.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.i
-.PHONY : opt/robocomp/classes/rapplication/rapplication.cpp.i
-
-opt/robocomp/classes/rapplication/rapplication.s: opt/robocomp/classes/rapplication/rapplication.cpp.s
-
-.PHONY : opt/robocomp/classes/rapplication/rapplication.s
-
-# target to generate assembly for a file
-opt/robocomp/classes/rapplication/rapplication.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/rapplication/rapplication.cpp.s
-.PHONY : opt/robocomp/classes/rapplication/rapplication.cpp.s
-
-opt/robocomp/classes/sigwatch/sigwatch.o: opt/robocomp/classes/sigwatch/sigwatch.cpp.o
-
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.o
-
-# target to build an object file
-opt/robocomp/classes/sigwatch/sigwatch.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.o
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.cpp.o
-
-opt/robocomp/classes/sigwatch/sigwatch.i: opt/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.i
-
-# target to preprocess a source file
-opt/robocomp/classes/sigwatch/sigwatch.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.i
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.cpp.i
-
-opt/robocomp/classes/sigwatch/sigwatch.s: opt/robocomp/classes/sigwatch/sigwatch.cpp.s
-
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.s
-
-# target to generate assembly for a file
-opt/robocomp/classes/sigwatch/sigwatch.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/opt/robocomp/classes/sigwatch/sigwatch.cpp.s
-.PHONY : opt/robocomp/classes/sigwatch/sigwatch.cpp.s
 
 specificmonitor.o: specificmonitor.cpp.o
 
@@ -1083,7 +1083,7 @@ specificmonitor.o: specificmonitor.cpp.o
 
 # target to build an object file
 specificmonitor.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.o
 .PHONY : specificmonitor.cpp.o
 
 specificmonitor.i: specificmonitor.cpp.i
@@ -1092,7 +1092,7 @@ specificmonitor.i: specificmonitor.cpp.i
 
 # target to preprocess a source file
 specificmonitor.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.i
 .PHONY : specificmonitor.cpp.i
 
 specificmonitor.s: specificmonitor.cpp.s
@@ -1101,7 +1101,7 @@ specificmonitor.s: specificmonitor.cpp.s
 
 # target to generate assembly for a file
 specificmonitor.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificmonitor.cpp.s
 .PHONY : specificmonitor.cpp.s
 
 specificworker.o: specificworker.cpp.o
@@ -1110,7 +1110,7 @@ specificworker.o: specificworker.cpp.o
 
 # target to build an object file
 specificworker.cpp.o:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.o
 .PHONY : specificworker.cpp.o
 
 specificworker.i: specificworker.cpp.i
@@ -1119,7 +1119,7 @@ specificworker.i: specificworker.cpp.i
 
 # target to preprocess a source file
 specificworker.cpp.i:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.i
 .PHONY : specificworker.cpp.i
 
 specificworker.s: specificworker.cpp.s
@@ -1128,7 +1128,7 @@ specificworker.s: specificworker.cpp.s
 
 # target to generate assembly for a file
 specificworker.cpp.s:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(MAKE) -f src/CMakeFiles/AprilTagsComp.dir/build.make src/CMakeFiles/AprilTagsComp.dir/specificworker.cpp.s
 .PHONY : specificworker.cpp.s
 
 # Help Target
@@ -1232,18 +1232,18 @@ help:
 	@echo "... getapriltagsI.o"
 	@echo "... getapriltagsI.i"
 	@echo "... getapriltagsI.s"
+	@echo "... home/carlos/robocomp/classes/qlog/qlog.o"
+	@echo "... home/carlos/robocomp/classes/qlog/qlog.i"
+	@echo "... home/carlos/robocomp/classes/qlog/qlog.s"
+	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.o"
+	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.i"
+	@echo "... home/carlos/robocomp/classes/rapplication/rapplication.s"
+	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.o"
+	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.i"
+	@echo "... home/carlos/robocomp/classes/sigwatch/sigwatch.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... opt/robocomp/classes/qlog/qlog.o"
-	@echo "... opt/robocomp/classes/qlog/qlog.i"
-	@echo "... opt/robocomp/classes/qlog/qlog.s"
-	@echo "... opt/robocomp/classes/rapplication/rapplication.o"
-	@echo "... opt/robocomp/classes/rapplication/rapplication.i"
-	@echo "... opt/robocomp/classes/rapplication/rapplication.s"
-	@echo "... opt/robocomp/classes/sigwatch/sigwatch.o"
-	@echo "... opt/robocomp/classes/sigwatch/sigwatch.i"
-	@echo "... opt/robocomp/classes/sigwatch/sigwatch.s"
 	@echo "... specificmonitor.o"
 	@echo "... specificmonitor.i"
 	@echo "... specificmonitor.s"
@@ -1261,6 +1261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/apriltagsComp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/carlos/robocomp/E_6/apriltagsComp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

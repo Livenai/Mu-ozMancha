@@ -36,43 +36,8 @@ SpecificWorker::~SpecificWorker()
 
 bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 {
-    //       THE FOLLOWING IS JUST AN EXAMPLE
-    //	To use innerModelPath parameter you should uncomment specificmonitor.cpp readConfig method content
-    //	try
-    //	{
-    //		RoboCompCommonBehavior::Parameter par = params.at("InnerModelPath");
-    //		std::string innermodel_path = par.value;
-    //		innerModel = new InnerModel(innermodel_path);
-    //	}
-    //	catch(std::exception e) { qFatal("Error reading config params"); }
 
-
-    timer.start(Period);
-
-
-    return true;
-}
-
-void SpecificWorker::compute()
-{
-    QMutexLocker locker(mutex);
-    //computeCODE
-    // 	try
-    // 	{
-    // 		camera_proxy->getYImage(0,img, cState, bState);
-    // 		memcpy(image_gray.data, &img[0], m_width*m_height*sizeof(uchar));
-    // 		searchTags(image_gray);
-    // 	}
-    // 	catch(const Ice::Exception &e)
-    // 	{
-    // 		std::cout << "Error reading from Camera" << e << std::endl;
-    // 	}
-
-
-
-    ///inicializamos
-    if(ESTABLECIDO){
-        vectorDeMarcas[0].nombre = "marca1";
+      vectorDeMarcas[0].nombre = "marca1";
             vectorDeMarcas[0].x = -3143;
             vectorDeMarcas[0].z = 6000;
 
@@ -89,19 +54,30 @@ void SpecificWorker::compute()
             vectorDeMarcas[3].z = -2000;
 
 
-        ESTABLECIDO = false;
-        cout << "---------- PARAMS ESTABLECIDOS ----------" << endl;
-    }
 
-    cout << "---------- STATE-MACHINE ----------" << endl;
+        cout << "---------- PARAMS ESTABLECIDOS ----------" << endl;
+
+    timer.start(Period);
+
+
+    return true;
+}
+
+void SpecificWorker::compute()
+{
+    QMutexLocker locker(mutex);
+
+    
     switch(state){
         case State::SEARCH:
+	    cout << "---------- SEARCHING ----------" << endl;  
             //tiene que leer la camara mientras el robot gira, en busca de
             //la marca con el codigo currentTag.
-            //una vez encontrada obtiene las coordenadas y llama al go() del chocachoca
+            //una vez encontrada obtiene las coordenadas siguientes y llama al go() del chocachoca
             //para que avance. Mientras el supervisor pasa al estado WAIT
             gotopoint_proxy->go(vectorDeMarcas[currentTag].nombre, vectorDeMarcas[currentTag].x, vectorDeMarcas[currentTag].z, NULL);
             state = State::WAIT;
+	    cout << "----- WAITING -----" << endl;
 
             break;
         case State::WAIT:
@@ -110,10 +86,15 @@ void SpecificWorker::compute()
             //actualizamos currentTag (con el siguiente valor del XML con los diferentes tags)
             //y pasamos a SEARCH.
         if(gotopoint_proxy->atTarget()){
+	    cout << "----- Robot atTarget -----" << endl;
             nextTag();
             state = State::SEARCH;
+	    //ahora chocachoca debe girar y obtener el id del tag que se supone tiene delante
+	    cout << "----- Reading Mark -----" << endl;
+	    gotopoint_proxy->turn(1);
+	    cout << "chocachoca ha recibido la marca :D\n\n" << endl;
+  
         }
-
             break;
     }
 }

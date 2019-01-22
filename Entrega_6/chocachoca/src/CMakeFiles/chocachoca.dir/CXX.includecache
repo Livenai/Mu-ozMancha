@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/AprilTags.cpp
+../../classes/sigwatch/sigwatch.h
+QObject
+-
+signal.h
+-
+
+/home/carlos/robocomp/E_6/chocachoca/src/AprilTags.cpp
 AprilTags.h
 -
 IceUtil/PushDisableWarnings.h
@@ -26,7 +32,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/CommonBehavior.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/CommonBehavior.cpp
 CommonBehavior.h
 -
 IceUtil/PushDisableWarnings.h
@@ -44,7 +50,7 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/DifferentialRobot.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/DifferentialRobot.cpp
 DifferentialRobot.h
 -
 IceUtil/PushDisableWarnings.h
@@ -64,7 +70,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GenericBase.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/GenericBase.cpp
 GenericBase.h
 -
 IceUtil/PushDisableWarnings.h
@@ -84,7 +90,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/GotoPoint.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/GotoPoint.cpp
 GotoPoint.h
 -
 IceUtil/PushDisableWarnings.h
@@ -102,7 +108,7 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/JointMotor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/JointMotor.cpp
 JointMotor.h
 -
 IceUtil/PushDisableWarnings.h
@@ -122,7 +128,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/Laser.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/Laser.cpp
 Laser.h
 -
 IceUtil/PushDisableWarnings.h
@@ -142,7 +148,7 @@ Ice/LocalException.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/RCISMousePicker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/RCISMousePicker.cpp
 RCISMousePicker.h
 -
 IceUtil/PushDisableWarnings.h
@@ -160,11 +166,11 @@ Ice/OutputStream.h
 IceUtil/PopDisableWarnings.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/apriltagsI.cpp
 apriltagsI.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.h
+/home/carlos/robocomp/E_6/chocachoca/src/apriltagsI.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/apriltagsI.h
+/home/carlos/robocomp/E_6/chocachoca/src/apriltagsI.h
 Ice/Ice.h
 -
 AprilTags.h
@@ -172,39 +178,39 @@ AprilTags.h
 config.h
 -
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 ../../genericmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericworker.cpp
 ../../genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 ../../specificmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificworker.cpp
 ../../specificworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_genericmonitor.cpp
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericmonitor.cpp
 EWIEGA46WW/moc_genericworker.cpp
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_genericworker.cpp
 EWIEGA46WW/moc_specificmonitor.cpp
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificmonitor.cpp
 EWIEGA46WW/moc_specificworker.cpp
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/chocachoca_autogen/EWIEGA46WW/moc_specificworker.cpp
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.cpp
 commonbehaviorI.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.h
+/home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.h
+/home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.h
 Ice/Ice.h
 -
 CommonBehavior.h
@@ -212,37 +218,37 @@ CommonBehavior.h
 config.h
 -
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 genericmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/config.h
+/home/carlos/robocomp/E_6/chocachoca/src/config.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.cpp
 genericmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 Ice/Ice.h
 -
 QtCore
 -
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 config.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/config.h
+/home/carlos/robocomp/E_6/chocachoca/src/config.h
 qlog/qlog.h
 -
 CommonBehavior.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.cpp
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 config.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/config.h
+/home/carlos/robocomp/E_6/chocachoca/src/config.h
 QtGui
 -
 stdint.h
@@ -272,11 +278,11 @@ GenericBase.h
 JointMotor.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/gotopointI.cpp
 gotopointI.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.h
+/home/carlos/robocomp/E_6/chocachoca/src/gotopointI.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/gotopointI.h
+/home/carlos/robocomp/E_6/chocachoca/src/gotopointI.h
 Ice/Ice.h
 -
 GotoPoint.h
@@ -284,9 +290,9 @@ GotoPoint.h
 config.h
 -
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/grid.h
+/home/carlos/robocomp/E_6/chocachoca/src/grid.h
 unordered_map
 -
 boost/functional/hash.hpp
@@ -298,7 +304,7 @@ fstream
 queue
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/main.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/main.cpp
 signal.h
 -
 QtCore
@@ -318,17 +324,17 @@ sigwatch/sigwatch.h
 qlog/qlog.h
 -
 config.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/config.h
+/home/carlos/robocomp/E_6/chocachoca/src/config.h
 genericmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 specificworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificworker.h
 specificmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.h
 commonbehaviorI.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/commonbehaviorI.h
+/home/carlos/robocomp/E_6/chocachoca/src/commonbehaviorI.h
 gotopointI.h
 -
 rcismousepickerI.h
@@ -354,11 +360,11 @@ GenericBase.h
 JointMotor.h
 -
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.cpp
 rcismousepickerI.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.h
+/home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/rcismousepickerI.h
+/home/carlos/robocomp/E_6/chocachoca/src/rcismousepickerI.h
 Ice/Ice.h
 -
 RCISMousePicker.h
@@ -366,27 +372,27 @@ RCISMousePicker.h
 config.h
 -
 genericworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.cpp
 specificmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificmonitor.h
 genericmonitor.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/genericmonitor.h
+/home/carlos/robocomp/E_6/chocachoca/src/genericmonitor.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.cpp
+/home/carlos/robocomp/E_6/chocachoca/src/specificworker.cpp
 specificworker.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificworker.h
 
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/specificworker.h
+/home/carlos/robocomp/E_6/chocachoca/src/specificworker.h
 genericworker.h
 -
 innermodel/innermodel.h
 -
 grid.h
-/home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/src/grid.h
+/home/carlos/robocomp/E_6/chocachoca/src/grid.h
 QGraphicsScene
 -
 QGraphicsView
@@ -400,13 +406,13 @@ fstream
 queue
 -
 
-/opt/robocomp/classes/qlog/qlog.cpp
+/home/carlos/robocomp/classes/qlog/qlog.cpp
 qlog.h
-/opt/robocomp/classes/qlog/qlog.h
+/home/carlos/robocomp/classes/qlog/qlog.h
 
-/opt/robocomp/classes/qlog/qlog.h
+/home/carlos/robocomp/classes/qlog/qlog.h
 config.h
-/opt/robocomp/classes/qlog/config.h
+/home/carlos/robocomp/classes/qlog/config.h
 QtCore
 -
 iostream
@@ -418,11 +424,11 @@ boost/format.hpp
 boost/format.hpp
 -
 
-/opt/robocomp/classes/rapplication/rapplication.cpp
+/home/carlos/robocomp/classes/rapplication/rapplication.cpp
 rapplication.h
-/opt/robocomp/classes/rapplication/rapplication.h
+/home/carlos/robocomp/classes/rapplication/rapplication.h
 
-/opt/robocomp/classes/rapplication/rapplication.h
+/home/carlos/robocomp/classes/rapplication/rapplication.h
 Ice/Ice.h
 -
 Ice/Application.h
@@ -432,7 +438,7 @@ IceUtil/IceUtil.h
 QtCore
 -
 
-/opt/robocomp/classes/sigwatch/sigwatch.cpp
+/home/carlos/robocomp/classes/sigwatch/sigwatch.cpp
 sys/socket.h
 -
 unistd.h
@@ -446,11 +452,11 @@ QSocketNotifier
 QDebug
 -
 sigwatch.h
-/opt/robocomp/classes/sigwatch/sigwatch.h
+/home/carlos/robocomp/classes/sigwatch/sigwatch.h
 moc_sigwatch.cpp
-/opt/robocomp/classes/sigwatch/moc_sigwatch.cpp
+/home/carlos/robocomp/classes/sigwatch/moc_sigwatch.cpp
 
-/opt/robocomp/classes/sigwatch/sigwatch.h
+/home/carlos/robocomp/classes/sigwatch/sigwatch.h
 QObject
 -
 signal.h
@@ -4921,8 +4927,8 @@ genericworker.h
 src/genericworker.h
 
 src/chocachoca_autogen/include/moc_sigwatch.cpp
-/opt/robocomp/classes/sigwatch/sigwatch.h
--
+../../../../../classes/sigwatch/sigwatch.h
+../../classes/sigwatch/sigwatch.h
 
 src/chocachoca_autogen/include/ui_mainUI.h
 QtCore/QVariant

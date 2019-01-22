@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca
+CMAKE_SOURCE_DIR = /home/carlos/robocomp/E_6/chocachoca
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca
+CMAKE_BINARY_DIR = /home/carlos/robocomp/E_6/chocachoca
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/chocachoca/CMakeFiles /home/carlos/robocomp/E_6/chocachoca/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fernandoms/Rbotica/MM2/Mu-ozMancha/Entrega_6/chocachoca/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/robocomp/E_6/chocachoca/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
